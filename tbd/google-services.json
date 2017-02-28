@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "583783084750",
+    "firebase_url": "https://airasiabig-2d62d.firebaseio.com",
+    "project_id": "airasiabig-2d62d",
+    "storage_bucket": "airasiabig-2d62d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583783084750:android:02a5395a42d892c7",
+        "android_client_info": {
+          "package_name": "com.airasiabig.redemption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583783084750-ulr03b8pv1o7arav115r9466v3dstjiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgKxKeeTsxhA2sit05P7pJ8tjuCdv3EaU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

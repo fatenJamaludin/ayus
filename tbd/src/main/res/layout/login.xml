@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.8"
+            android:background="@color/white"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/login_email_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-7dp"
+                android:padding="10dp"
+                android:paddingTop="20dp"
+                android:text="@string/email"
+                android:textColor="@color/loginFontTxt"
+                android:textSize="@dimen/font16sp" />
+
+            <com.app.tbd.utils.FontStyle.PlayEditText
+                android:id="@+id/txtLoginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:hint="@string/login_example_email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:tag="tagLoginEmail"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/font17sp" />
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-7dp"
+                android:layout_marginTop="25dp"
+                android:padding="10dp"
+                android:text="@string/password"
+                android:textColor="@color/loginFontTxt"
+                android:textSize="@dimen/font16sp" />
+
+            <com.app.tbd.utils.FontStyle.PlayEditText
+                android:id="@+id/txtLoginPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:hint="@string/login_example_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:tag="tagLoginPassword"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/font17sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/white_button_click"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:text="@string/login_"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </Button>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:id="@+id/txtForgotPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/login_forgot_password"
+                    android:textColor="@color/red"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:background="@color/grey_light"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!--<com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="or"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="@color/dark_gray"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"/> -->
+
+            <!--<com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <com.app.tbd.utils.FontStyle.PlayButtonText
+                android:id="@+id/dummyFBButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/facebook_custom_button"
+                android:text="@string/login_fb_button"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:visibility="gone" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

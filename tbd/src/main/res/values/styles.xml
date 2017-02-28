@@ -1,0 +1,146 @@
+<resources>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_drawable</item>
+    </style>
+
+    <style name="v2ActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_drawable</item>
+    </style>
+
+
+    <!-- Latest Theme -->
+    <style name="MyCustomTheme" parent="@android:style/Theme.Holo.Light">
+
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <item name="android:windowBackground">@color/white</item>
+        <!--<item name="colorAccent">@color/bright_green</item>-->
+        <item name="elevation">0dp</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/default_theme_colour</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/default_theme_colour</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <item name="android:statusBarColor">@color/default_theme_colour</item>
+    </style>
+
+    <style name="landingTheme" parent="android:Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+
+    <style name="DialogThemePush" parent="android:Theme.Dialog">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+        <!-- No backgrounds, titles or window float -->
+        <!-- <item name="android:windowBackground">@null</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+
+
+        <!-- No backgrounds, titles or window float -->
+        <!-- <item name="android:windowBackground">@null</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="Theme1" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Theme1.ActionBar</item>
+        <!-- <item name="homeAsUpIndicator">@drawable/vrsm__ic_back</item>-->
+        <!--<item name="windowActionBar">false</item>-->
+    </style>
+
+    <style name="Theme1.ActionBar">
+        <item name="android:background">@color/default_theme_colour</item>
+    </style>
+
+    <style name="Theme1.DrawerNavigation">
+        <item name="android:windowBackground">@color/theme1_drawer_bg</item>
+        <item name="android:colorBackground">@color/theme1_drawer_bg</item>
+        <item name="android:background">@color/theme1_drawer_bg</item>
+    </style>
+
+    <style name="Theme1.DrawerNavigation.Icon">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Theme1.DrawerNavigation.TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:colorBackground">@color/theme1_tab_bg_5</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="DialogTitleText">Loading…</item>
+        <item name="DialogSpotColor">@color/white</item>
+        <item name="DialogSpotCount">5</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme">
+        <!-- parent="@style/Theme.Sherlock.Light"> -->
+
+        <!-- <item name="colorPrimary">@color/primary_green</item>
+         <item name="colorPrimaryDark">@color/dark_green</item>
+
+         <item name="colorControlNormal">@color/dark_gray</item>
+         <item name="colorControlActivated">@color/dark_green</item>
+         <item name="colorControlHighlight">@color/dark_green</item>-->
+
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light" />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light" />
+
+    <style name="MY.DIALOG" parent="android:Theme">
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+    </style>
+
+    <style name="MaterialDialogSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+    <style name="switch_on" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/default_theme_colour</item>
+    </style>
+
+    <style name="switch_off" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+</resources>

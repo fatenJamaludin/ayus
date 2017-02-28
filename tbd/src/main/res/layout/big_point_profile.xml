@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seekarc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/big_background"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/banner_shadow"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/default_theme_colour"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@color/grey_light"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/inset_push_notification_box"
+                    android:elevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.app.tbd.utils.FontStyle.PlayTextView
+                                android:id="@+id/textView8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/big_id"
+                                android:textColor="@color/grey_666666"/>
+
+                            <com.app.tbd.utils.FontStyle.PlayTextView
+                                android:id="@+id/txtBigShotId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1234567890"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:weightSum="1">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_weight="0.5"
+                                    android:orientation="vertical">
+
+                                    <com.app.tbd.utils.FontStyle.PlayTextView
+                                        android:id="@+id/txtBigShotPoint"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="8,700"
+                                        android:textSize="30sp"/>
+
+                                    <com.app.tbd.utils.FontStyle.PlayTextView
+                                        android:id="@+id/textToday"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:textColor="@color/grey"
+                                        android:textStyle="bold" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="110dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="left"
+                                            android:layout_marginBottom="3dp"
+                                            android:layout_marginTop="5dp"
+                                            android:gravity="left"
+                                            android:orientation="vertical">
+
+                                            <com.app.tbd.utils.FontStyle.PlayTextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:drawableLeft="@drawable/pink_dot"
+                                                android:drawablePadding="3sp"
+                                                android:text="@string/big_point_total_points"
+                                                android:textSize="11dp"/>
+
+                                            <com.app.tbd.utils.FontStyle.PlayTextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:drawableLeft="@drawable/red_dot"
+                                                android:drawablePadding="4sp"
+                                                android:text="@string/big_point_expiring"
+                                                android:textSize="11dp"/>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/fade_text"
+                                android:text="Hai"
+                                android:visibility="gone"/>
+
+                            <com.triggertrap.seekarc.SeekArc
+                                android:id="@+id/seekArc"
+                                android:layout_width="300dp"
+                                android:layout_height="300dp"
+                                android:clickable="false"
+                                android:padding="10dp"
+                                seekarc:arcColor="#FF7373"
+                                seekarc:progress="30"
+                                seekarc:progressColor="#910606"
+                                seekarc:rotation="192"
+                                seekarc:startAngle="40"
+                                seekarc:arcWidth="5dp"
+                                seekarc:sweepAngle="255"
+                                seekarc:thumb="@drawable/seek_thumb"
+                                seekarc:touchInside="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true" />
+
+                            <LinearLayout
+                                android:id="@+id/bigPointExpiryDateLayout"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/transaction_back"
+                                android:elevation="5dp"
+                                android:clickable="true"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <com.app.tbd.utils.FontStyle.PlayTextView
+                                    android:id="@+id/txTransactionHistory"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/white"
+                                    android:text="@string/big_point_expiring_in"
+                                    android:textSize="15sp" />
+
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/grey_light"
+            android:orientation="vertical">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/playTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/transaction_history"
+                android:textColor="@color/red_text"
+                android:textSize="16dp"
+                 />
+
+            <LinearLayout
+                android:id="@+id/transactionHistoryLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ExpandableListView
+                    android:id="@+id/transactionHistoryList"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/noTransactionHistoryLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="visible">
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:id="@+id/txtUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tbd_big_point_no_transaction"
+                    android:textColor="@color/dark_lvl5"
+                    android:textSize="20dp"
+                    android:layout_marginTop="-30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

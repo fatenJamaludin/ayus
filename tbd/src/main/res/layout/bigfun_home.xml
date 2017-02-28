@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:background="@color/default_theme_colour">
+
+        <ImageButton
+            android:id="@+id/bigfun_quest_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/big_fun_home_circle_button"
+            android:src="@mipmap/big_fun_quest" />
+
+        <ImageButton
+            android:id="@+id/bigfun_setting_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/big_fun_home_circle_button"
+            android:src="@mipmap/big_fun_setting" />
+
+        <ImageButton
+            android:id="@+id/bigfun_star_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/big_fun_home_circle_button"
+            android:src="@mipmap/big_fun_star" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/big_fun_logo"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.28"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ViewFlipper
+                    android:id="@+id/sunFlipper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center|bottom"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerInside"
+                        android:src="@mipmap/big_fun_trivia_sun" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center|bottom"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerInside"
+                        android:src="@mipmap/big_fun_trivia_sun" />
+
+                </ViewFlipper>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ViewFlipper
+            android:id="@+id/viewflipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginRight="-20dp"
+            android:autoStart="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginRight="-20dp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/big_fun_trivia_home" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginRight="-20dp"
+                android:src="@mipmap/big_fun_trivia_home" />
+
+
+        </ViewFlipper>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.92"
+                android:gravity="bottom|center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <ViewFlipper
+                        android:id="@+id/smallPlaneFlipper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="25dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:scaleType="center"
+                            android:src="@mipmap/big_fun_small_plane" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:adjustViewBounds="true"
+                            android:src="@mipmap/big_fun_small_plane" />
+
+                    </ViewFlipper>
+
+
+                    <ViewFlipper
+                        android:id="@+id/planeFlipper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:autoStart="true">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:src="@mipmap/big_fun_big_plane" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:src="@mipmap/big_fun_big_plane" />
+
+                    </ViewFlipper>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <Button
+                            android:id="@+id/bigFunBtnPlay"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.4"
+                            android:background="@drawable/promo_corner_box"
+                            android:elevation="1dp"
+                            android:text="@string/btn_play"
+                            android:textColor="@color/default_theme_colour"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

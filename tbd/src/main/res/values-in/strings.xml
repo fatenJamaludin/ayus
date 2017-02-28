@@ -1,0 +1,665 @@
+<resources>
+
+    <!--NO NEED--><string name="app_name">AirAsia BIG</string>
+    <string name="version">Versi 1.1.6</string>
+
+    <!-- DropDown Value -->
+    <string-array name="gender">
+        <item>Pria/Male</item>
+        <item>Wanita/Female</item>
+    </string-array>
+
+    <!--action bar-->
+    <string name="ab_cancel">Batal</string>
+    <string name="ab_search">Pencarian</string>
+    <string name="ab_logout">LOGOUT</string>
+    <string name="ab_plus">+</string>
+    <string name="ab_done_c">SELESAI</string>
+    <string name="ab_done">SELESAI</string>
+    <string name="ab_save_cptl">SIMPAN</string>
+    <string name="ab_continuev2">Lanjutkan</string>
+    <string name="ab_next">SELANJUTNYA</string>
+    <string name="ab_login_c">LOGIN</string>
+    <string name="ab_edit">Edit</string>
+
+    <!--ONBOARDING-->
+    <string name="onboarding_skip">LEWATKAN</string>
+    <string name="onboarding_continue">LANJUTKAN</string>
+
+    <!--Before Login-->
+    <string name="login_button">LOGIN</string>
+    <string name="signup_button">DAFTAR</string>
+
+    <!-- TITLE / HEADER -->
+    <string name="header_welcome_back">Selamat datang</string>
+    <string name="header_user_profile">Profil pengguna</string>
+    <string name="header_addons">Tambahan</string>
+    <string name="header_addons_capital">TAMBAHAN</string>
+    <string name="header_pick_seat">Pilih Kursi</string>
+    <string name="header_checkout">Keluar</string>
+    <string name="header_payment">PAYMENT</string>
+    <string name="header_select_card">Select Card</string>
+    <string name="header_summary">Ringkasan</string>
+    <string name="header_traveller_info">Traveler Info</string>
+    <string name="header_depart">Keberangkatan</string>
+    <string name="depart_flight">Keberangkatan Penerbangan</string>
+    <string name="passenger_title_with_s">Penumpang</string>
+    <string name="header_return">Kembali</string>
+    <string name="return_flight">Penerbangan Pulang</string>
+
+    <!--TITLE/HEADER TAB-->
+    <!--RECHECK--><string name="TBD_home">Beranda</string>
+    <string name="TBD_user_profile">Profil Pengguna</string>
+    <string name="TBD_flight_search">Pencarian Penerbangan</string>
+    <!--NO NEED--><string name="TBD_big_fun">BIG Fun Trivia</string>
+
+    <!-- REGISTER -->
+    <string name="register_continue_button">Lanjutkan</string>
+    <string name="register_confirm_password">Konfirmasi Kata Sandi </string>
+    <string name="register_basic_information">INFORMASI BASIC</string>
+    <string name="register_country">Negara</string>
+    <string name="register_state">Negara Bagian</string>
+    <string name="register_language">Bahasa</string>
+    <string name="register_password_policy">Kebijakan Kata Sandi</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight">PESAN PENERBANGAN</string>
+    <string name="book_flight_one_way">SEKALI JALAN</string>
+    <string name="book_flight_return">PULANG PERGI</string>
+    <string name="book_flight_adult">Dewasa</string>
+
+    <!-- BOOKING FLIGHT - LIST FLIGHT -->
+    <!--NO NEED--><string name="book_flight_basic">BASIC</string>
+    <!--NO NEED--><string name="book_flight_premier">PREMIER</string>
+
+    <!-- General -->
+    <string name="general_continue">Lanjutkan</string>
+    <string name="general_success">Sukses!</string>
+    <string name="pts">pts</string>
+
+    <string name="home_exit">KELUAR</string>
+    <string name="home_confirm_exit">Konfirmasi keluar?</string>
+    <string name="home_cancel">Batal</string>
+    <string name="home_close">Tutup</string>
+    <string name="update">UPDATE</string>
+    <string name="title_activity_terms">Persyaratan</string>
+
+    <!-- Forgot Password Module -->
+    <string name="forgotPasswordExpired">KATA SANDI KEDALUWARSA</string>
+    <string name="forgotPasswordCurrent">Kata sandi terkini</string>
+    <string name="forgotPasswordNew">Kata Sandi Baru</string>
+    <string name="forgotPasswordConfirm">Konfirmasi Kata Sandi</string>
+
+    <!-- General-->
+    <string name="date_ob">Tanggal Lahir</string>
+    <!--NO NEED--><string name="textview_placeholder_lbl">TextView</string>
+    <string name="stateListDialogTitle">Silahkan pilih negara bagian</string>
+    <string name="failed_load">Gagal untuk memuat</string>
+
+    <!-- TBD LOGIN PAGE -->
+    <string name="login_">Login</string>
+    <string name="login_forgot_password">Lupa Kata Sandi?</string>
+    <!--NO NEED--><string name="login_fb_button">Login via Facebook</string>
+    <!--NO NEED--><string name="login_example_email">example@mail.com</string>
+    <!--NO NEED--><string name="login_example_password">********</string>
+
+    <!-- TBD FORGOT PASSWORD -->
+    <string name="forgot_password_title">Lupa Kata Sandi</string>
+    <!--NO NEED--><string name="forgot_password_email">example@mail.com</string>
+    <!--NOT USE--><string name="title_activity_password_expired">PasswordExpiredActivity</string>
+    <string name="password_expire_text">Kata sandi Anda telah kedaluwarsa dan perlu diubah. Kata sandi harus terdiri dari minimal 8 karakter, harus menyertakan satu huruf besar, satu huruf kecil, satu digit angka dan satu simbol. Contoh: SkyPark + 123</string>
+
+    <!-- General -->
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="current_password">Kata sandi terkini</string>
+    <string name="btn_continue">Lanjutkan ></string>
+    <string name="fill_emtpy_field">Terjadi kesalahan. Sila perbaiki kesalahan yang ditunjukkan.</string>
+    <string name="success">Sukses!</string>
+
+    <!-- Reset Password -->
+    <string name="reset_new_password">Kata Sandi Baru</string>
+
+    <!-- TBD Profile -->
+    <string name="profile_my_profile">Profil Saya</string>
+    <string name="tbd_my_big_point">BIG Points Saya</string>
+    <string name="tbd_my_credit_card">My Credit Card</string>
+    <!--NO NEED--><string name="facebook">Facebook</string>
+    <string name="options">Pilihan</string>
+
+    <!--Options-->
+    <string name="options_app_settings">Pengaturan Aplikasi</string>
+    <string name="options_information">Informasi</string>
+    <string name="options_about">Tentang</string>
+    <string name="btn_nxt">SELANJUTNYA</string>
+    <string name="options_about_follow">Follow kami untuk mendapatkan update terbaru</string>
+    <string name="options_terms">Loyalitas Keanggotaan BIG</string>
+    <string name="options_terms_conditions">Syarat dan Ketentuan</string>
+    <string name="options_privacy">Kebijakan Privasi TBD</string>
+    <string name="options_reset_password">Reset Kata Sandi</string>
+    <string name="option_reset_password_text">Untuk mereset password Anda, masukkan alamat email yang Anda gunakan untuk masuk ke AirAsia BIG.</string>
+    <string name="options_change_language">Ubah Bahasa</string>
+    <string name="options_logout">Logout</string>
+    <string name="option_select_language">PILIH BAHASA</string>
+
+    <!--Credit card-->
+    <string name="tbd_big_point_no_credit_card">No Credit Card</string>
+    <string name="credit_card_number">Nomor Kartu</string>
+    <string name="credit_card_expiry_date">Tanggal kadaluwarsa</string>
+    <!--NO NEED--><string name="credit_card_cvv">CVV</string>
+    <string name="credit_card_country">Negara</string>
+
+    <!--AAB View My Profile -->
+    <string name="profile_personal_details">Data Pribadi</string>
+    <string name="profile_salutation">Sapaan</string>
+    <string name="profile_given_name">Nama Depan</string>
+    <string name="profile_family_name">Nama Keluarga</string>
+    <string name="profile_dob">Tanggal Lahir</string>
+    <string name="profile_nationality">Kebangsaan</string>
+    <string name="profile_mobile">Ponsel</string>
+    <string name="profile_passport">No Paspor</string>
+    <string name="profile_address">Alamat</string>
+    <string name="profile_street1">Jalan 1</string>
+    <string name="profile_street2">Jalan 2</string>
+    <string name="profile_city">Kota</string>
+    <string name="profile_post_code">Kode Pos</string>
+    <string name="profile_state">Negara Bagian</string>
+    <string name="profile_country">Negara</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="profile_emergency">Kontak Darurat</string>
+    <string name="profile_name">Nama</string>
+    <string name="profile_parent_detail">Detail Orang Tua</string>
+    <string name="profile_document_no">Nomor Dokumen</string>
+    <string name="profile_edit">EDIT</string>
+    <string name="profile_bigshot_id">ID Anggota BIG :</string>
+
+    <!-- TBD Search Flight -->
+    <!--X--><string name="search_flight_title">Select your origin</string>
+    <string name="book_flight_departure_title">Keberangkatan</string>
+    <string name="book_flight_destination_title">Tujuan</string>
+    <string name="book_flight_departure_dates">Tanggal Berangkat</string>
+    <string name="book_flight_select_departure_date">Pilih tanggal keberangkatan</string>
+    <string name="book_flight_return_date">Tanggal Kembali</string>
+    <string name="book_flight_select_return_date">Pilih tanggal Kembali</string>
+
+    <!-- TBD Holiday Shaker -->
+    <string name="holiday_shaker_reedem">REDEEM</string>
+
+    <!-- TBD Register -->
+    <string name="register_title">Daftar</string>
+    <string name="register_continue">Daftar ></string>
+    <string name="register_given_name">Nama Depan</string>
+    <string name="register_family_name">Nama Keluarga</string>
+    <string name="register_nick_name">Nama Panggilan</string>
+    <string name="register_nationality">Kebangsaan</string>
+    <string name="register_mobile">Ponsel</string>
+    <string name="register_personal_detail">DATA PRIBADI</string>
+    <string name="register_contact_detail">RINCIAN KONTAK</string>
+    <string name="register_postcode">Kode Pos</string>
+    <string name="register_select_state">Silahkan pilih negara bagian</string>
+    <string name="register_select_language">Silahkan pilih bahasa</string>
+    <string name="register_select_country">Silahkan pilih negara</string>
+    <string name="register_select_nationality">Silahkan pilih kebangsaan</string>
+    <string name="register_newsletter_language_hint">Silakan pilih bahasa</string>
+    <string name="register_general_loading">Memuat &#8230;</string>
+    <string name="register_password_style">Kata sandi harus 8&#8211;15 karakter alfanumerik dengan persyaratan ini: Nomor (0&#8211;9), huruf kecil (a&#8211;z), huruf besar (A&#8211;Z)</string>
+    <string name="register_city">Kota</string>
+    <string name="register_newsletter_language">Bahasa Newsletter</string>
+
+    <!--NO NEED--><string name="register_confirm_information">
+    <![CDATA[
+        Saya tegaskan bahwa informasi yang saya tulis adalah benar dan akurat dan memahami bahwa AirAsia BIG Loyalty Programme dioperasikan oleh Think BIG Digital Sdn Bhd. Saya telah membaca dan menyatakan setuju dengan <a href="http://www.airasiabig.com/my/en/assets/pdf/tnc-big-loyalty_en-GB.pdf" style="color: #FF0000;">syarat dan ketentuan yang ditetapkan oleh AirAsia BIG Loyalty Membership</a> yang dioperasikan oleh Think BIG Digital Sdn Bhd, yang dalam hal ini saya terikat di dalamnya.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_acknowledge_member">
+    <![CDATA[
+    I further acknowledge that in order to proceed with the membership application, registration and/or subscription and the provision of services, benefits and privileges related to the AirAsia BIG Loyalty Programme and the AirAsia membership, the sharing, transfer, retrieval, updating and processing of my personal information and data as well as creation of member profile and user accounts may occur between Think BIG Digital Sdn Bhd, AirAsia Berhad, Tune Money Sdn Bhd and each of their respective group companies, related corporations, affiliates, subsidiaries, associates (as further stated in Think BIG Digital Sdn Bhd’s and AirAsia Berhad’s Privacy Policies) and I confirm that I have read <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a> and consent to the processing of my personal data for purposes of the same. I further agree that by browsing and using the website(s) and services and/or products contained herein, I agree to <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">AirAsia Berhad’s Terms of Use</a> and <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Terms of Use</a>.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_parent_confirm">
+    <![CDATA[
+    In making this AirAsia BIG Loyalty membership and AirAsia membership, I hereby declare that (i) I, the applicant, am at least 18 years of age; (ii) I am the parent and/or guardian of the Minor; (iii) I am applying for the BIG Loyalty Membership and AirAsia Membership for and on behalf of the Minor (iv) I consent to the sharing and processing of the Minor’s personal data and information in accordance with <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a>.
+    ]]>
+    </string>
+
+    <!-- Forgot Password -->
+    <string name="reset_password_success_send">Link lupa kata sandi telah dikirim ke email Anda yang sudah terdaftar</string>
+    <string name="update_password_success_send">Kata sandi berhasil diperbarui!</string>
+
+    <!-- TBD Facebook ID -->
+    <!--NO NEED--><string name="facebook_app_id">1143272665731321</string>
+
+    <!--Big Point-->
+    <string name="big_id">ID Anggota BIG</string>
+    <string name="transaction_history">Riwayat Transaksi</string>
+    <string name="tbd_points_expiry">Point kedaluwarsa</string>
+    <string name="tbd_big_point_no_transaction">No Transaction History</string>
+    <string name="big_point_total_points">Total Point</string>
+    <string name="big_point_expiring">Point yang akan kedaluwarsa (dalam 6 bulan)</string>
+    <string name="big_point_expiring_in">Point kedaluwarsa</string>
+    <string name="points_as_of">point dari</string>
+
+    <!-- SELECTION FRAGMENT TITLE -->
+    <string name="select_country">Pilih negara</string>
+    <string name="select_language">Pilih bahasa</string>
+    <string name="select_state">Pilih negara bagian</string>
+    <string name="select_nationality">Select nationality</string>
+    <string name="select_title">Pilih sapaan</string>
+    <string name="register_password_hint">Kata sandi harus 8&#8211;15 karakter alfanumerik dengan persyaratan ini: Nomor (0&#8211;9), huruf kecil (a&#8211;z), huruf besar (A&#8211;Z)</string>
+    <string name="tbd_my_booking">Pesanan Saya</string>
+    <string name="profile_address_title">ALAMAT</string>
+    <string name="select_departure_date">Pilih tanggal keberangkatan</string>
+    <string name="select_return_date">Pilih tanggal Kembali</string>
+
+    <!--Custom_passenger_picker-->
+    <string name="adult_age"> &gt; 12 tahun</string>
+    <string name="child_age">2 &#8211; 12 tahun</string>
+    <string name="infant_age">&lt; 2 tahun</string>
+    <string name="passenger_adult">Dewasa</string>
+    <string name="passenger_child">Anak</string>
+    <string name="passenger_infant">Bayi</string>
+    <string name="passenger_title">Penumpang</string>
+    <string name="passenger_title_done">SELESAI</string>
+    <string name="passenger_adult_more">Dewasa</string>
+    <string name="passenger_child_more">Anak</string>
+    <string name="passenger_infant_more">Bayi</string>
+    <string name="error_max">Maksimum 9 penumpang per pemesanan</string>
+    <string name="error_min">Min adalah 1</string>
+    <string name="error_infant_morethan_adult">Jumlah bayi tidak bisa lebih dari orang dewasa</string>
+    <string name="error_max_passenger_booking">Maksimum 9 penumpang per pemesanan</string>
+    <string name="error_max_passenger_adult">Maksimum 9 orang dewasa per pemesanan</string>
+    <string name="error_max_passenger_child">Maksimum 9 orang anak per pemesanan</string>
+    <string name="error_max_passenger_infant">Maksimum 4 orang bayi per pemesanan</string>
+
+    <!--meals-->
+    <string name="meal_dragdrop">Geser dan masukan penambahan barang</string>
+    <string name="inflight_meal">In Flight Meals</string>
+
+    <!--checkout-->
+    <string name="checkout_dpt_flight">Keberangkatan Penerbangan</string>
+    <string name="checkout_subtotal">Subtotal</string>
+    <string name="checkout_addon_fee">Tambahan &amp; Biaya</string>
+    <string name="check_out_total">Total</string>
+
+    <!--Travellers info-->
+    <string name="addons_name_notice">Nama penumpang harus sama dengan paspor/ID dan dalam abjad romawi (A-Z). Segala perubahan nama setelah booking harus dilakukan dengan membeli tiket penerbangan baru.</string>
+    <string name="addons_traveller1">Penumpang 1</string>
+    <string name="addons_im_flying">Saya Terbang</string>
+    <string name="info_traveller2">Wisatawan 2</string>
+    <string name="info_travel_with">Bepergian dengan</string>
+    <string name="info_select_one">Pilih satu</string>
+    <string name="info_gender_title">Jenis kelamin</string>
+    <string name="info_salutation_title">Sapaan</string>
+    <string name="info_given_name">Nama Depan</string>
+    <string name="info_family_name">Nama Keluarga</string>
+    <string name="info_date_birth">Tanggal Lahir</string>
+    <string name="info_select_birth">Pilih tanggal lahir</string>
+    <string name="info_nationality">Kebangsaan</string>
+    <string name="info_contact_person">Nama Kontak</string>
+
+    <!--Checkout-->
+    <string name="checkout_air_fare">Air Fare</string>
+    <string name="checkout_payment_due">Jatuh Tempo Pembayaran</string>
+
+    <!--credit card-->
+    <string name="hint_month">Bulan</string>
+    <string name="hint_year">Tahun</string>
+    <string name="cc_issuing_bank">Kartu Kredit / Debit Yang Dikeluarkan Oleh Bank:</string>
+
+
+    <!--Payment-->
+    <string name="payment_secure_payment">Secure Payment</string>
+    <string name="payment_msos_code">Kode MSOS</string>
+
+    <!--Payment due-->
+    <!--RECHECK (mata-poin)--><string name="available_big_point">BIG Points Yang Tersedia</string>
+    <!--RECHECK (mata-poin)--><string name="total_point_due">Jumlah Point belum berbayar</string>
+    <!--RECHECK (mata-poin)--><string name="point_to_use">Point untuk digunakan</string>
+    <string name="payment_due">Jatuh Tempo Pembayaran</string>
+
+    <!--Flight itinenary-->
+    <string name="itinenary_departure">Keberangkatan Penerbangan</string>
+    <string name="itinenary_return">Penerbangan pulang</string>
+    <string name="itinenary_passenger">Penumpang</string>
+
+    <!--Flight list-->
+    <string name="flight_list_daparture">Keberangkatan</string>
+    <string name="flight_list_no_flight">Tidak ada Penerbangan Tersedia</string>
+
+    <!--Flight search-->
+    <string name="flight_search_select">Pilih satu</string>
+    <string name="flight_search_destination">Tujuan</string>
+    <string name="flight_search_depart_date">Tanggal Berangkat</string>
+    <string name="flight_select_depart_date">Pilih tanggal</string>
+    <string name="flight_search_return_date">Tanggal Kembali</string>
+    <string name="flight_select_return_date">Pilih tanggal</string>
+    <string name="flight_search_passenger">Penumpang</string>
+    <string name="flight_search_adult">1 Dewasa</string>
+    <string name="flight_search_reset">RESET</string>
+    <string name="flight_search_promo_message">Anda telah memilih rute dari daftar promo kami. Jika Anda ingin memilih untuk tujuan lain silahkan tekan tombol \"RESET\".</string>
+
+    <!--Error Message-->
+    <string name="email_empty">Silakan masukkan email</string>
+    <string name="email_invalid">Silakan masukkan format email yang valid</string>
+    <string name="password_empty">Silakan masukkan kata sandi</string>
+    <string name="password_rule">Harus minimal 8 dan maksimum 16 karakter</string>
+
+    <!--Payment Failed-->
+    <string name="failed_msg_sorry">Kami minta maaf,</string>
+    <string name="failed_msg_transaction">transaksi anda gagal</string>
+    <string name="failed_msg_tryagain">Silakan coba lagi</string>
+    <string name="failed_msg_button">TRY AGAIN</string>
+    <string name="failed_msg_cancel">BATAL PENERBANGAN</string>
+
+
+    <!--HOMEPAGE-->
+    <string name="depart_hint">Berangkat dari</string>
+
+    <!--Homepage-->
+    <string name="home_depart_hint">Berangkat dari</string>
+    <!--NO NEED--><string name="home_final_call">Final Call</string>
+    <!--NO NEED--><string name="home_fix_grid">Fixed Grid</string>
+    <!--NO NEED--><string name="home_schedule_extension">Scheduled Extension</string>
+    <string name="home_now">Sekarang </string>
+    <string name="home_to">ke</string>
+    <string name="redeem_caps">REDEEM</string>
+
+    <!--Base-->
+    <string name="base_loading">Memuat</string>
+    <string name="base_loading_ellipsis">Memuat&#8230;</string>
+    <string name="base_please_wait">Mohon tunggu&#8230;</string>
+    <string name="base_update">Apakah Anda yakin ingin memperbarui?</string>
+    <string name="base_confirm">Konfirmasi!</string>
+    <string name="base_cancel">Batal!</string>
+    <!--X--><string name="base_connection_error">Koneksi Error</string>
+    <string name="base_connection_server">Tidak dapat terhubung ke server</string>
+    <string name="base_no_internet">Tidak Ada Koneksi Internet</string>
+
+
+    <!--MainController-->
+    <string name="main_session_expired">Session expired</string>
+    <string name="main_error">Error!</string>
+    <!--X--><string name="main_invalid_user">Username atau password tidak valid</string>
+    <string name="main_sorry">Sorry!</string>
+    <string name="main_invalid_card">Nomor kartu kredit tidak valid</string>
+
+    <!--Addons-->
+    <string name="addons_baggage">Bagasi</string>
+    <string name="addons_meals">Makanan</string>
+    <string name="addons_seat_selection">Pilih Kursi</string>
+    <string name="addons_travel_insurance">Asuransi Perjalanan</string>
+    <string name="addons_special_assistance">Special Assistance</string>
+    <string name="addons_points">pts</string>
+    <string name="addons_auto_assign">Dipilih Secara Otomatis</string>
+    <string name="addons_meal">makanan</string>
+    <string name="addons_none">Tidak Ada</string>
+    <string name="addons_not_included">Tidak Termasuk</string>
+    <string name="addons_included">Termasuk</string>
+    <string name="addons_selected">Dipilih</string>
+    <string name="addons_kg">KG</string>
+    <string name="addons_alert">Perhatian</string>
+    <string name="addons_message1">Anda berhak mendapatkan makanan gratis dari kami, silakan pilih makanan untuk penerbangan keberangkatan Anda</string>
+    <string name="addons_message2">Anda berhak mendapatkan makanan gratis dari kami, silakan pilih makanan untuk penerbangan kepulangan Anda</string>
+    <string name="addons_message3">Anda berhak mendapatkan bagasi gratis dari kami, silakan pilih bagasi untuk penerbangan keberangkatan Anda</string>
+    <string name="addons_message4">Anda berhak mendapatkan bagasi gratis dari kami, silakan pilih bagasi untuk penerbangan kepulangan Anda</string>
+    <string name="addons_message5">Anda berhak mendapatkan kursi gratis dari kami, silakan pilih kursi untuk penerbangan keberangkatan Anda</string>
+    <string name="addons_message6">Anda layak mendapatkan kursi gratis dari kami, silahkan pilih tempat duduk untuk penerbangan kembali</string>
+
+    <!--Insurance-->
+    <string name="insurance_not_available">Asuransi tidak tersedia untuk penerbangan ini</string>
+    <string name="insurance_add">Tambah</string>
+    <string name="insurance_added">Ditambahkan</string>
+    <string name="insurance_text">Ya, saya ingin membeli AirAsia Travel Protection untuk semua orang yang memenuhi syarat.</string>
+    <string name="insurance_title">Asuransi Perjalanan dari AirAsia</string>
+    <string name="insurance_text2">
+        <![CDATA[
+        Saya mengkonfirmasi bahwa saya telah membaca, memahami dan menyetujui <a href="http://www.airasiainsure.com/my/ms/da/english.html" style="color: #e4170e;">Deklarasi dan Otorisasi</a> Permohonan Asuransi dan menerima  <a href="https://www.tuneprotect.com/airasia/en/home/" style="color: #FF0000;">Syarat &amp; Ketentuan</a>Polis tersebut. Saya menerima bahwa begitu polis diterbitkan, maka tidak dapat dibatalkan dan tidak ada pengembalian uang. Saya memahami bahwa jika saya tidak ingin membeli AirAsia Travel Protection, saya dapat hapus tanda centang untuk menghapusnya dari jadwal saya. Saya memahami bahwa jika saya mengubah rencana perjalanan penerbangan saya, polis akan tak berlaku secara otomatis dan saya dapat membeli polis yang baru secara online.
+        ]]>
+    </string>
+    <string name="insurance_text3">Tidak, terima kasih. Saya ingin melanjutkan tanpa AirAsia Travel Protection.</string>
+    <string name="insurance_text4">Catatan: AirAsia Travel Protection ditanggung oleh Tune Insurance Malaysia Berhad.</string>
+    <string name="insurance_text5">
+        <![CDATA[
+        Silakan beri tanda cek pada kotak di sebelah ini untuk menegaskan bahwa Anda memahami dan menyetujui <a href="http://www.airasia.com/ot/en/about-us/terms-and-conditions.page" style="color: #e4170e;">syarat dan ketentuan</a> maskapai AirAsia dan <a href="http://www.airasiabig.com/my/en/assets/tnc/tnc_airasia-flight-redeem-bigpoints.pdf" style="color: #e4170e;"> syarat &amp; ketentuan Redemption AirAsia BIG</a> untuk melanjutkan. Pemesanan tidak dapat dibatalkan dan pembayaran yang telah dibuat tidak dapat diuangkan kembali.
+        ]]>
+    </string>
+    <string name="insurance_text7">
+        <![CDATA[
+        PRA-BANTAHAN: AirAsia dapat menolak mengangkut Anda atau bagasi Anda jika, dalam pelaksanaan kebijakan kami yang wajar, kami memutuskan bahwa pembayaran tarif Anda palsu atau pemesanan kursi Anda telah dilakukan dengan kecurangan atau tidak sah atau telah dibeli dari seseorang yang tidak kami beri wewenang untuk itu.
+        ]]>
+    </string>
+    <string name="insurance_text6">
+        <![CDATA[
+        Jika membutuhkan bantuan khusus, silakan hubungi kami melalui <a href="http://www.airasia.com/my/en/live-chat.page" style="color: #e4170e;">Live Chat</a> setelah melakukan pembelian sampai dengan 48 jam sebelum penerbangan Anda.
+        ]]>
+    </string>
+    <string name="insurance_alert">Waspada</string>
+    <string name="insurance_textA">Konfirmasikan bahwa Anda telah setuju dengan Syarat &amp; Kondisi</string>
+    <string name="insurance_textB">Please choose</string>
+
+    <string name="text_message">Maksimum item telah ditambahkan. Silahkan hapus pilihan Anda sebelumnya untuk ditukar</string>
+    <string name="text_message2">Kurang dari point minimum tidak diperbolehkan</string>
+    <string name="fail_message">Gagal untuk memuat</string>
+    <string name="message2">Kurang dari point minimum tidak diperbolehkan</string>
+    <string name="message3">Lebih dari point maksimal tidak diperbolehkan</string>
+
+    <string name="passanger_x">x  Penumpang</string>
+    <string name="thanks">Terima kasih</string>
+    <string name="need_payment">Perlu Pembayaran</string>
+    <!--X--><string name="pending_payment">Pending Payment</string>
+    <string name="success_payment">Dikonfirmasi</string>
+    <string name="email_message">Jika Anda telah melakukan pembayaran tetapi tidak menerima konfirmasi pemesanan setelah 2 jam, jangan khawatir karena pemesanan Anda akan diverifikasi oleh staff AirAsia dalam waktu 48 jam dan konfirmasi tersebut akan dikirimkan kepada Anda. Jika tidak ada pembayaran yang dipotong, silahkan lakukan pemrosesan di Mengatur Pembelian di website AirAsia untuk membayar tunggakan pembayaran.</string>
+    <string name="email_message2">Sebuah Email konfirmasi berisi ringkasan pembayaran Anda telah dikirim ke&#160;</string>
+
+    <string name="card_info">Informasi Kartu</string>
+    <string name="payment_title">Payment Failed</string>
+    <string name="process_payment">Proses Pembayaran</string>
+    <!--X--><string name="message_progress">Pembayaran sedang dalam proses. Harap menuggu&#8230;</string>
+
+
+    <string name="guest">Penumpang</string>
+    <string name="adult">Dewasa</string>
+    <string name="salutation_text">Sapaan diperlukan</string>
+    <string name="family_name_required">Nama Keluarga</string>
+    <string name="nationality_required">Kebangsaan diperlukan</string>
+    <string name="given_name_required">Nama depan diperlukan</string>
+    <string name="dob_required">Tanggal lahir diperlukan</string>
+    <string name="travelling_required">Teman berpergian diperlukan</string>
+    <string name="gender_required">Jenis kelamin diperlukan</string>
+
+    <string name="tnc_text">Konfirmasikan bahwa Anda telah setuju dengan Syarat &amp; Kondisi</string>
+    <string name="passenger_text">Penumpang</string>
+    <string name="adult_text">(Dewasa)</string>
+    <string name="child_text">(Anak)</string>
+    <string name="infant_text">(Bayi)</string>
+
+    <string name="popup_text">Silakan pilih penerbangan.</string>
+    <!--RECHECK--><string name="fixed">Fixed</string>
+    <!--RECHECK--><string name="regular">Reguler</string>
+    <!--RECHECK--><string name="promo">Promo</string>
+    <!--RECHECK--><string name="premium_flex">Premium Flex</string>
+    <!--RECHECK-->
+    <!--NO NEED--><string name="fixed_c">FIXED</string>
+    <!--NO NEED--><string name="regular_c">REGULER</string>
+    <!--NO NEED--><string name="promo_c">PROMO</string>
+    <!--NO NEED--><string name="premium_flex_c">PREMIUM FLEX</string>
+    <!--NO NEED-->
+
+    <string name="content">Apakah Anda yakin ingin membatalkan pemesanan ini?</string>
+    <string name="no">Tidak</string>
+    <string name="yes">Ya</string>
+    <string name="message_alert">Email kontak tidak sah</string>
+    <string name="alert_message2">Informasi tidak lengkap. Silakan isi tempat kosong.</string>
+    <string name="error_title">Usia tidak valid</string>
+    <string name="error_message1">Dewasa harus berusia 12 tahun ke atas</string>
+    <string name="error_message2">Anak-anak harus berusia antara 2 - 11 tahun</string>
+    <string name="error_message3">Bayi harus berusia di bawah 2 tahun</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight_availability">Maaf, tidak ada penerbangan yang tersedia. Silakan pilih tanggal lain atau bandara dan coba lagi.</string>
+    <string name="alert_text1">Pilih bandara keberangkatan Anda</string>
+    <string name="alert_text2">Pilih bandara tujuan Anda</string>
+    <string name="alert_text3">Pilih tanggal keberangkatan Anda.</string>
+    <string name="alert_text4">Pilih tanggal kepulangan Anda</string>
+    <string name="select_date">Pilih Tanggal</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_success">Sukses!</string>
+
+    <!--Change Password-->
+    <string name="password_mismatch">Kata sandi tidak cocok</string>
+    <string name="password_length">Harus minimal 8 dan maksimum 16 karakter</string>
+    <string name="password_changed">Kata sandi telah berubah!</string>
+    <string name="error_message">Kata sandi tidak cocok</string>
+
+    <!--Picker-->
+    <string name="member_login_title">Member Login</string>
+    <!--X--><string name="picker_message1">Selected date must be between</string>
+    <string name="picker_and">dan</string>
+    <string name="picker_departure_station">Bandara keberangkatan</string>
+    <string name="picker_arrival_station">Arrival Station</string>
+    <!--X--><string name="picker_preferred">Select preferred language</string>
+    <!--X--><string name="picker_enter_keyword">Enter keyword</string>
+    <string name="picker_select_gender">Pilih jenis kelamin</string>
+    <string name="picker_select_departure">Pilih Bandara Keberangkatan</string>
+    <string name="picker_select_arrival">Pilih Stasiun Kedatangan</string>
+    <string name="select_country_title">Pilih negara</string>
+
+    <!--Option-->
+    <string name="please_select_country">Silahkan pilih negara</string>
+    <string name="term_title">Syarat Penggunaan</string>
+    <string name="qr_title">Kode QR BIG Saya</string>
+
+    <!--Edit-->
+    <string name="edit_utils">Silahkan pilih negara</string>
+    <string name="edit_success">Terima Kasih! Update Berhasil</string>
+    <!--X--><string name="error_not_save">Image not saved</string>
+
+    <!--Main-->
+    <!--X--><string name="main_connection_body">Please connect to working Internet connection</string>
+    <!--X--><string name="main_toast">New Message:</string>
+
+    <!--Registration-->
+    <string name="register_success_message">Terima kasih! Silakan cek email Anda untuk melengkapi pendaftaran Anda</string>
+    <string name="register_error">ERROR</string>
+    <string name="register_password_invalid">Kata sandi tidak valid.</string>
+    <string name="register_password_length">Harus minimal 8 dan maksimum 16 karakter</string>
+
+    <!--Splash Screen-->
+    <!--X--><string name="updateTitle">App Update</string>
+    <!--X--><string name="updateBody">New version available at PlayStore</string>
+
+    <!--Token-->
+    <string name="token_connection_error">Koneksi Error</string>
+    <string name="token_retry">Coba lagi</string>
+
+    <!--Adapter-->
+    <string name="adapter_seat_left">%1$s kursi yang tersisa!</string>
+    <string name="adapter_salutation_required">Sapaan diperlukan</string>
+    <string name="adapter_nationality_required">Kebangsaan diperlukan</string>
+    <string name="adapter_family_name_required">Nama Keluarga</string>
+    <string name="adapter_given_name_required">Nama depan diperlukan</string>
+    <string name="adapter_dob_required">Tanggal lahir diperlukan</string>
+    <string name="adapter_travelling_required">Teman berpergian diperlukan</string>
+    <string name="adapter_gender_required">Jenis kelamin diperlukan</string>
+    <string name="adapter_seat_left1">%1$s kursi yang tersisa</string>
+    <string name="adapter_seat_left2">%1$s kursi yang tersisa</string>
+
+    <!--Error Message-->
+    <!--X--><string name="error1">Contact Person Phone is required</string>
+    <string name="error2">Tidak cukup point untuk melanjutkan</string>
+    <string name="error3">Sesi Anda telah berakhir. Silakan login lagi.</string>
+    <!--X--><string name="error4">Validation Error</string>
+    <!--X--><string name="error5">Country Code is required</string>
+
+    <!--action bar-->
+    <string name="action_pay">BAYAR</string>
+    <string name="action_new_flight">PENERBANGAN BARU</string>
+
+    <!--Password expired-->
+    <!--NOT USE--><string name="hint_enter_current_password">Enter current password</string>
+    <!--NOT USE--><string name="hint_enter_new_password">Enter new password</string>
+    <!--NOT USE--><string name="hint_enter_confirm_password">Enter Confirm Password</string>
+
+    <!--add profile image-->
+    <string name="change_photo">Ubah Foto</string>
+    <string name="take_photo">Ambil Foto</string>
+    <string name="choose_photo">Pilih Dari Foto</string>
+    <string name="remove_photo">Hapus Gambar</string>
+    <string name="cancel">BATAL</string>
+
+    <string name="addon_star">Tambahan gratis untuk penerbangan Anda</string>
+    <string name="baggage_meal_not">Not available for this flight</string>
+    <string name="done">Selesai</string>
+    <!--X--><string name="aab_big_prepaid">AirAsia BIG Prepaid</string>
+    <string name="depart">Berangkat</string>
+    <string name="returned">Kembali</string>
+    <string name="booking_number">Nomor Pemesanan:</string>
+    <string name="point_redeem">Total Poin Diredeem:</string>
+    <string name="total_paid">Total yang dibayarkan:</string>
+    <string name="transaction_number">Nomor Transaksi:</string>
+    <string name="book_no">Nomor Pemesanan</string>
+    <string name="w_update">Update</string>
+
+    <!--Force update-->
+    <string name="fu_new_version">VERSI TERBARU TELAH TERSEDIA</string>
+    <string name="fu_desc">Versi telah terbaru tersedia untuk di-download! Silakan memperbarui aplikasi dengan mengunjungi Google Play Store</string>
+
+    <string name="select">Pilih</string>
+    <string name="your_language">Bahasa Anda</string>
+    <string name="baggage_kg">Bagasi 20kg</string>
+    <string name="hot_seat">Pilihan Hot Seat Gratis</string>
+    <string name="comp_meal">1 makanan gratis</string>
+    <string name="fare_differ">2 kali perubahan pada waktu/tanggal penerbangan hingga 2 jam sebelum keberangkatan. Dapat berubah tergantung perbedaan harga.</string>
+    <string name="lounge">Akses lounge untuk penerbangan internasional yang berangkat dari KLIA2</string>
+    <string name="kg_baggage">Bagasi 40kg </string>
+    <string name="any_differ">Perubahan tanggal/waktu penerbangan tak terbatas sampai maksimal 2 jam sebelum keberangkatan. Dapat berubah tergantun perbedaan harga.</string>
+    <string name="lounge2">Flatbed + Akses lounge untuk penerbangan internasional yang berangkat dari KLIA2</string>
+    <string name="insurance_desc">Penumpang berikut ini memenuhi persyaratan mendapatkan asuransi perjalanan</string>
+    <!--X--><string name="shaker">Shake For Random Holiday</string>
+    <string name="no_promo">Ups! Tidak ada rute promo di dekat Anda, silakan pilih lokasi lain</string>
+    <string name="confirm_sym">Dikonfirmasi &gt;</string>
+    <string name="process_fee">Biaya pemrosesan :&#160;</string>
+    <string name="payment_desc">Biaya ini akan dikenakan kepada setiap penumpang untuk setiap pembayaran yang dilakukan secara online menggunakan kartu kredit, kartu debit dan charge card saja.</string>
+    <string name="payment_amount_due">Total tagihan:&#160;</string>
+    <string name="payment_card_type">Jenis kartu</string>
+    <string name="payment_card_number">Nomor kartu</string>
+    <string name="payment_expired_date">Tanggal kadaluwarsa</string>
+    <string name="card_holder">Nama pemegang kartu</string>
+    <string name="cvv">Nomor CVV / CVC</string>
+    <string name="issuing_bank">Kartu Kredit / Debit Yang Dikeluarkan Oleh Bank:</string>
+    <string name="card_issuer">Penerbit Kartu:</string>
+    <!--NOT USE--><string name="test_issuer_card">Testing Card Issuer - (Hardcoded)</string>
+    <string name="country_issue">Negara penerbit kartu:</string>
+    <!--NOT USE--><string name="test_country_issue">Testing Card Issuer Country - (Hardcoded)</string>
+    <string name="billing_address">Alamat Tagihan</string>
+    <string name="bill_add1">Alamat Tagihan 1</string>
+    <string name="bill_add2">Alamat Tagihan 2</string>
+    <string name="town_city">Kota</string>
+    <string name="process">Memproses&#8230;</string>
+    <string name="qr">Kode QR BIG Saya</string>
+    <string name="recent_search">Pencarian Terkini</string>
+    <string name="your_country">Negara Anda</string>
+    <string name="coming_soon">Segera Datang</string>
+    <string name="title_mr">Tn</string>
+    <string name="title_ms">Ny</string>
+    <string name="bigfun_music">Music</string>
+    <string name="bigfun_setting_title">Setting</string>
+    <string name="bigfun_sound">Sound</string>
+    <string name="btn_play">Play</string>
+    <string name="premium_flatbed">Premium Flatbed</string>
+    <string name="premium_flatbed_c">PREMIUM FLATBED</string>
+    <string name="register_check_subscribe">Berlangganan Newsletter AirAsia.</string>
+    <string name="pts_with_space">&#160;pts</string>
+    <string name="hr">h</string>
+    <string name="min">m</string>
+
+    <string name="notification_title">Notifikasi</string>
+    <string name="notification_delete">Pesan Dihapus</string>
+    <string name="no_notification">Tidak ada notifikasi baru</string>
+    <string name="message">Pesan</string>
+    <string name="messages">Pesan</string>
+
+</resources>

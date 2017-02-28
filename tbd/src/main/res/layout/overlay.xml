@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/overlay_back"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/overlay_image"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="10dip"
+                app:riv_border_width="1dip"
+                app:riv_border_color="#fff"
+                app:riv_mutate_background="false"
+                app:riv_tile_mode="clamp"
+                app:riv_oval="false" />
+
+<!--
+            <ImageView
+                android:background="@drawable/overlay_back"
+                android:layout_margin="8dp"
+                android:visibility="visible"
+                android:id="@+id/overlay_image"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bali_background" />
+-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/txtCloseOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Continue"
+                android:textColor="#666666"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

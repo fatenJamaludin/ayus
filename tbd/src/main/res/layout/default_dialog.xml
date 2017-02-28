@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/inset_push_notification_box">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/tbd_icon"
+                android:scaleType="centerInside"/>
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_lvl5"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="@string/aab_big_prepaid"
+                android:id="@+id/push_title" />
+        </LinearLayout>
+
+        <com.app.tbd.utils.FontStyle.PlayTextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/dark_lvl6"
+            android:id="@+id/moreTxt" />
+
+    </LinearLayout>
+
+</LinearLayout>

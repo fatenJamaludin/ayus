@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/credit_card_number"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="25dp">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/credit_edit_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.93"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:padding="10dp"
+                android:layout_marginLeft="-10dp"
+                android:textColor="@color/grey"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="**** 1234" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_vertical|right"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.58"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/credit_card_expiry_date"
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_vertical|right"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:hint="@string/credit_card_cvv"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="25dp">
+
+            <com.app.tbd.utils.FontStyle.PlayEditText
+                android:id="@+id/credit_edit_date_month"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:hint="@string/forgot_password_email"
+                android:padding="10dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="-10dp"
+                android:text="02"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_vertical|right"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/credit_edit_date_month_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:src="@drawable/down_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_vertical|right"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <com.app.tbd.utils.FontStyle.PlayEditText
+                android:id="@+id/credit_edit_date_year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.22"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:hint="@string/forgot_password_email"
+                android:padding="10dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:text="2023"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_vertical|right"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/credit_edit_date_year_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:src="@drawable/down_icon" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_vertical|right"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <com.app.tbd.utils.FontStyle.PlayEditText
+                android:id="@+id/credit_edit_cvv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:hint="@string/forgot_password_email"
+                android:padding="10dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:text="***"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/credit_card_country"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="25dp">
+
+            <com.app.tbd.utils.FontStyle.PlayEditText
+                android:id="@+id/credit_edit_country"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.93"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:hint="@string/forgot_password_email"
+                android:padding="10dp"
+                android:layout_marginLeft="-10dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:text="Malaysia"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:gravity="center_vertical|right"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/credit_edit_country_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center"
+                    android:src="@drawable/down_icon" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

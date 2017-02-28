@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/onboarding_gradient_background_color" />
+    <item>
+        <bitmap
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/spalsh_sharp2" />
+    </item>
+
+</layer-list>

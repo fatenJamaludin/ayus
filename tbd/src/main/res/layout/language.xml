@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <com.app.tbd.utils.FontStyle.PlayTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/register_country"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_language_country_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.app.tbd.utils.FontStyle.PlayTextView
+            android:id="@+id/txtLangCountry"
+            android:clickable="false"
+            android:hint="@string/register_general_loading"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.93"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/drawable_login_bottom_border"
+            android:padding="5dp"
+            android:layout_marginLeft="-5dp"
+            android:textColorHint="@color/grey"
+            android:textSize="17dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            android:gravity="center_vertical|right"
+            android:background="@drawable/drawable_login_bottom_border"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:src="@drawable/down_icon" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <com.app.tbd.utils.FontStyle.PlayTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/register_language"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_language_language_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="25dp">
+
+        <com.app.tbd.utils.FontStyle.PlayTextView
+            android:id="@+id/txtLangLanguage"
+            android:layout_width="0dp"
+            android:clickable="false"
+            android:hint="@string/register_select_language"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.93"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/drawable_login_bottom_border"
+            android:padding="5dp"
+            android:layout_marginLeft="-5dp"
+            android:textColorHint="@color/grey"
+            android:textSize="17dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            android:gravity="center_vertical|right"
+            android:background="@drawable/drawable_login_bottom_border"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:src="@drawable/down_icon" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_nxt"
+        android:visibility="gone"/>
+
+</LinearLayout>

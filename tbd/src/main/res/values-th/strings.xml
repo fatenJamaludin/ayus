@@ -1,0 +1,667 @@
+<resources>
+
+    <!--NO NEED--><string name="app_name">AirAsia BIG</string>
+    <string name="version">เวอร์ชัน  1.1.6</string>
+
+    <!-- DropDown Value -->
+    <string-array name="gender">
+        <item>ชาย/Male</item>
+        <item>หญิง/Female</item>
+    </string-array>
+
+    <!--action bar-->
+    <string name="ab_cancel">ยกเลิก</string>
+    <string name="ab_search">ค้นหา</string>
+    <string name="ab_logout">ออกจากระบบ</string>
+    <string name="ab_plus">+</string>
+    <string name="ab_done_c">เสร็จสิ้น</string>
+    <string name="ab_done">เสร็จสิ้น</string>
+    <string name="ab_save_cptl">บันทึก</string>
+    <string name="ab_continuev2">ดำเนินการต่อ</string>
+    <string name="ab_next">ถัดไป</string>
+    <string name="ab_login_c">เข้าสู่ระบบ</string>
+    <string name="ab_edit">แก้ไข</string>
+
+    <!--ONBOARDING-->
+    <string name="onboarding_skip">ข้าม</string>
+    <string name="onboarding_continue">ดำเนินการต่อ</string>
+
+    <!--Before Login-->
+    <string name="login_button">เข้าสู่ระบบ</string>
+    <string name="signup_button">ลงทะเบียน</string>
+
+    <!-- TITLE / HEADER -->
+    <string name="header_welcome_back">ยินดีต้อนรับกลับมา</string>
+    <string name="header_user_profile">โพรไฟล์ผู้ใช้</string>
+    <string name="header_addons">เพิ่มเติม</string>
+    <string name="header_addons_capital">เพิ่มเติม</string>
+    <string name="header_pick_seat">เลือกที่นั่ง</string>
+    <string name="header_checkout">ตรวจสอบรายละเอียด</string>
+    <string name="header_payment">PAYMENT</string>
+    <!--X--><string name="header_select_card">Select Card</string>
+    <string name="header_summary">สรุป</string>
+    <string name="header_traveller_info">ข้อมูล ผู้เดินทาง</string>
+    <string name="header_depart">ต้นทาง</string>
+    <string name="depart_flight">เที่ยวบิน</string>
+    <string name="passenger_title_with_s">ผู้เดินทาง</string>
+    <string name="header_return">ไป-กลับ</string>
+    <string name="return_flight">เที่ยวบินขากลับ</string>
+
+    <!--TITLE/HEADER TAB-->
+    <string name="TBD_home">หน้าแรก</string>
+    <string name="TBD_flight_search">การค้นหาเที่ยวบิน</string>
+    <!--NO NEED--><string name="TBD_big_fun">BIG Fun Trivia</string>
+
+    <!-- REGISTER -->
+    <string name="register_continue_button">ดำเนินการต่อ</string>
+    <string name="register_confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="register_basic_information">ข้อมูลพื้นฐาน</string>
+    <string name="register_country">ประเทศ</string>
+    <string name="register_state">จังหวัด</string>
+    <string name="register_language">ภาษา</string>
+    <string name="register_password_policy">นโยบายรหัสผ่าน</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight">จองเที่ยวบิน</string>
+    <string name="book_flight_one_way">เที่ยวเดียว</string>
+    <string name="book_flight_return">ไป-กลับ</string>
+    <string name="book_flight_adult">ผู้ใหญ่</string>
+
+    <!-- BOOKING FLIGHT - LIST FLIGHT -->
+    <!--NO NEED--><string name="book_flight_basic">มาตรฐาน</string>
+    <!--NO NEED--><string name="book_flight_premier">PREMIER</string>
+
+    <!-- General -->
+    <string name="general_continue">ดำเนินการต่อ</string>
+    <string name="general_success">สำเร็จ!</string>
+    <string name="pts">คะแนน</string>
+
+    <string name="home_confirm_exit">ยืนยันออกจากรายการ?</string>
+    <string name="home_cancel">ยกเลิก</string>
+    <string name="home_close">ปิด</string>
+
+    <!-- Update Profile -->
+    <string name="update">อัพเดต</string>
+
+    <!-- Mobile Check in -->
+    <string name="title_activity_terms">ข้อกำหนด</string>
+
+    <!-- Forgot Password Module -->
+    <string name="forgotPasswordExpired">รหัสผ่านหมดอายุ</string>
+    <string name="forgotPasswordCurrent">รหัสผ่านปัจจุบัน</string>
+    <string name="forgotPasswordNew">รหัสผ่านใหม่</string>
+    <string name="forgotPasswordConfirm">ยืนยันรหัสผ่าน</string>
+
+    <!-- General-->
+    <string name="date_ob">วันเกิด</string>
+    <!--NO NEED--><string name="textview_placeholder_lbl">TextView</string>
+    <string name="stateListDialogTitle">โปรดเลือกจังหวัด</string>
+    <string name="failed_load">โหลดไม่สำเร็จ</string>
+
+    <!-- TBD LOGIN PAGE -->
+    <string name="login_">เข้าสู่ระบบ</string>
+    <string name="login_forgot_password">ลืมรหัสผ่าน?</string>
+    <!--NO NEED--><string name="login_fb_button">Login via Facebook</string>
+    <!--NO NEED--><string name="login_example_email">example@mail.com</string>
+    <!--NO NEED--><string name="login_example_password">********</string>
+
+    <!-- TBD FORGOT PASSWORD -->
+    <string name="forgot_password_title">ลืมรหัสผ่าน</string>
+    <!--NO NEED--><string name="forgot_password_email">example@mail.com</string>
+    <!--NOT USE--><string name="title_activity_password_expired">PasswordExpiredActivity</string>
+    <string name="password_expire_text">รหัสผ่านของคุณหมดอายุและต้องทำการเปลี่ยนแปลง รหัสผ่านต้องประกอบด้วยอย่างน้อย 8 ตัวอักษรและจะต้องมีตัวอักษรพิมพ์ใหญ่ ตัวอักษรพิมพ์เล็ก ตัวเลข และ เครื่องหมายสัญลักษณ์ ตัวอย่าง: SkyPark+ 123</string>
+
+    <!-- General -->
+    <string name="email">อีเมล</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="current_password">รหัสผ่านปัจจุบัน</string>
+    <string name="btn_continue">แก้ไข ></string>
+    <string name="fill_emtpy_field">พบข้อผิดพลาด กรุณาแก้ไขปัญหาตามที่ระบุไว้</string>
+    <string name="success">สำเร็จ!</string>
+
+    <!-- Reset Password -->
+    <string name="reset_new_password">รหัสผ่านใหม่</string>
+
+    <!-- TBD Profile -->
+    <string name="profile_my_profile">โพรไฟล์ของฉัน</string>
+    <string name="tbd_my_big_point">BIG Points ของฉัน</string>
+    <!--X--><string name="tbd_my_credit_card">My Credit Card</string>
+    <!--NO NEED--><string name="facebook">Facebook</string>
+    <string name="options">ทางเลือก</string>
+
+    <!--Options-->
+    <string name="options_app_settings">ตั้งค่าแอพพลิเคชั่น</string>
+    <string name="options_information">รายละเอียด</string>
+    <string name="options_about">เกี่ยวกับเรา</string>
+    <string name="btn_nxt">ถัดไป</string>
+    <string name="options_terms">โปรแกรมสมาชิกแอร์เอเชียบิ๊ก</string>
+    <string name="options_terms_conditions">ข้อกำหนดและเงื่อนไข</string>
+    <string name="options_privacy">นโยบายความเป็นส่วนตัว TBD</string>
+    <string name="options_reset_password">ตั้งรหัสผ่านใหม่</string>
+    <string name="option_reset_password_text">เพื่อตั้งรหัสผ่านของคุณใหม่ กรุณากรอกอีเมลที่คุณใช้เข้าระบบแอร์เอเชียบิ๊ก</string>
+    <string name="options_change_language">ตั้งค่า</string>
+    <string name="options_logout">ออกจากระบบ</string>
+    <string name="option_select_language">เลือกภาษา</string>
+
+    <!--Credit card-->
+    <!--X--><string name="tbd_big_point_no_credit_card">No Credit Card</string>
+    <string name="credit_card_number">หมายเลขบัตร</string>
+    <string name="credit_card_expiry_date">วันหมดอายุ</string>
+    <string name="credit_card_cvv">CVV</string>
+    <string name="credit_card_country">ประเทศ</string>
+
+    <!--AAB View My Profile -->
+    <string name="profile_personal_details">ข้อมูลส่วนตัว</string>
+    <string name="profile_salutation">คำนำหน้า</string>
+    <string name="profile_given_name">ชื่อ</string>
+    <string name="profile_family_name">นามสกุล</string>
+    <string name="profile_dob">วันเกิด</string>
+    <string name="profile_nationality">สัญชาติ</string>
+    <string name="profile_mobile">โทรศัพท์มือถือ</string>
+    <string name="profile_passport">หมายเลขหนังสือเดินทาง</string>
+    <string name="profile_address">ที่อยู่</string>
+    <string name="profile_street1">ถนน  1</string>
+    <string name="profile_street2">ถนน  2</string>
+    <string name="profile_city">เขต/อำเภอ</string>
+    <string name="profile_post_code">รหัสไปรษณีย์</string>
+    <string name="profile_state">จังหวัด</string>
+    <string name="profile_country">ประเทศ</string>
+    <string name="edit_profile">แก้ไขประวัติส่วนตัว</string>
+    <string name="profile_emergency">ข้อมูลสำหรับการติดต่อในกรณีฉุกเฉิน</string>
+    <string name="profile_name">ชื่อ</string>
+    <string name="profile_parent_detail">รายละเอียดผู้ปกครอง</string>
+    <string name="profile_document_no">หมายเลขเอกสาร</string>
+    <string name="profile_edit">แก้ไข</string>
+    <string name="profile_bigshot_id">หมายเลขสมาชิก BIG  :</string>
+
+    <!-- TBD Search Flight -->
+    <!--X--><string name="search_flight_title">Select your origin</string>
+    <string name="book_flight_departure_title">ต้นทาง</string>
+    <string name="book_flight_destination_title">ปลายทาง</string>
+    <string name="book_flight_departure_dates">วันออกเดินทาง</string>
+    <string name="book_flight_select_departure_date">วันเดินทางกลับ</string>
+    <string name="book_flight_return_date">วันเดินทางกลับ</string>
+    <string name="book_flight_select_return_date">เลือกวันเดินทางกลับ</string>
+
+    <!-- TBD Holiday Shaker -->
+    <string name="holiday_shaker_reedem">แลกคะแนน</string>
+
+    <!-- TBD Register -->
+    <string name="register_title">ลงทะเบียน</string>
+    <string name="register_continue">สมัครสมาชิก ></string>
+    <string name="register_given_name">ชื่อ</string>
+    <string name="register_family_name">นามสกุล</string>
+    <string name="register_nick_name">ชื่อเล่น</string>
+    <string name="register_nationality">สัญชาติ</string>
+    <string name="register_mobile">โทรศัพท์มือถือ</string>
+    <string name="register_personal_detail">ข้อมูลส่วนตัว</string>
+    <string name="register_contact_detail">ข้อมูลที่ติดต่อ</string>
+    <string name="register_postcode">รหัสไปรษณีย์</string>
+    <string name="register_select_state">โปรดเลือกจังหวัด</string>
+    <string name="register_select_language">โปรดเลือกภาษา</string>
+    <string name="register_select_country">โปรดเลือกประเทศ</string>
+    <string name="register_select_nationality">กรุณาเลือกสัญชาติ</string>
+    <string name="register_check_subscribe">สมัครสมาชิกเพื่อรับจดหมายข่าวของแอร์เอเชีย</string>
+    <string name="register_newsletter_language_hint">โปรดเลือกภาษา</string>
+    <string name="register_general_loading">กำลังโหลด &#8230;</string>
+    <string name="register_password_style">รหัสผ่านต้องมี 8&#8211;15 ตัวอักษรและตัวเลข ตามข้อกำหนดเหล่านี้: ตัวเลข (0&#8211;9) ตัวอักษรพิมพ์เล็ก (a&#8211;z) ตัวอักษรพิมพ์ใหญ่ (A&#8211;Z)</string>
+    <string name="register_city">เมือง</string>
+    <string name="register_newsletter_language">จดหมายข่าว</string>
+
+    <!--NO NEED--><string name="register_confirm_information">
+    <![CDATA[
+        I confirm that the above information provided by me is true and accurate and understand that the AirAsia BIG Loyalty Programme is operated by Think BIG Digital Sdn Bhd. I have read and hereby agree to the <a href="http://www.airasiabig.com/my/en/assets/pdf/tnc-big-loyalty_en-GB.pdf" style="color: #FF0000;">terms and conditions of the AirAsia BIG Loyalty Membership</a> operated by Think BIG Digital Sdn Bhd, which shall be binding on me.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_acknowledge_member">
+    <![CDATA[
+    I further acknowledge that in order to proceed with the membership application, registration and/or subscription and the provision of services, benefits and privileges related to the AirAsia BIG Loyalty Programme and the AirAsia membership, the sharing, transfer, retrieval, updating and processing of my personal information and data as well as creation of member profile and user accounts may occur between Think BIG Digital Sdn Bhd, AirAsia Berhad, Tune Money Sdn Bhd and each of their respective group companies, related corporations, affiliates, subsidiaries, associates (as further stated in Think BIG Digital Sdn Bhd’s and AirAsia Berhad’s Privacy Policies) and I confirm that I have read <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a> and consent to the processing of my personal data for purposes of the same. I further agree that by browsing and using the website(s) and services and/or products contained herein, I agree to <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">AirAsia Berhad’s Terms of Use</a> and <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Terms of Use</a>.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_parent_confirm">
+    <![CDATA[
+    In making this AirAsia BIG Loyalty membership and AirAsia membership, I hereby declare that (i) I, the applicant, am at least 18 years of age; (ii) I am the parent and/or guardian of the Minor; (iii) I am applying for the BIG Loyalty Membership and AirAsia Membership for and on behalf of the Minor (iv) I consent to the sharing and processing of the Minor’s personal data and information in accordance with <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a>.
+    ]]>
+    </string>
+
+    <!-- Forgot Password -->
+    <string name="reset_password_success_send">ลิงก์ลืมรหัสผ่านถูกส่งไปยังอีเมลที่คุณได้ลงทะเบียนไว้แล้ว</string>
+    <string name="update_password_success_send">อัพเดตรหัสผ่านเรียบร้อยแล้ว</string>
+
+    <!-- TBD Facebook ID -->
+    <!--NO NEED--><string name="facebook_app_id">1143272665731321</string>
+
+    <!--Big Point-->
+    <string name="big_id">หมายเลขสมาชิก BIG</string>
+    <string name="transaction_history">ประวัติการทำธุรกรรม</string>
+    <string name="tbd_points_expiry">คะแนนหมดอายุ</string>
+    <!--X--><string name="tbd_big_point_no_transaction">No Transaction History</string>
+    <string name="big_point_total_points">คะแนนสะสมทั้งหมด</string>
+    <string name="big_point_expiring">คะแนนหมดอายุ (ใน 6 เดือนข้างหน้า)</string>
+    <string name="big_point_expiring_in">คะแนนหมดอายุ</string>
+    <string name="points_as_of">คะแนน ณ วันที่</string>
+
+    <!-- SELECTION FRAGMENT TITLE -->
+    <string name="select_country">เลือกประเทศ</string>
+    <string name="select_language">เลือกภาษา</string>
+    <string name="select_state">เลือกจังหวัด</string>
+    <!--X--><string name="select_nationality">Select nationality</string>
+    <string name="select_title">เลือกคำนำหน้า</string>
+    <string name="register_password_hint">รหัสผ่านต้องมี 8&#8211;15 ตัวอักษรและตัวเลข ตามข้อกำหนดเหล่านี้: ตัวเลข (0&#8211;9) ตัวอักษรพิมพ์เล็ก (a&#8211;z) ตัวอักษรพิมพ์ใหญ่ (A&#8211;Z)</string>
+    <string name="tbd_my_booking">การจอง ของฉัน</string>
+    <string name="profile_address_title">ที่อยู่</string>
+    <string name="select_departure_date">เลือกวันออกเดินทาง</string>
+    <string name="select_return_date">เลือกวันเดินทางกลับ</string>
+
+    <!--Custom_passenger_picker-->
+    <string name="adult_age">&gt; 12 ปี</string>
+    <string name="child_age">2 &#8211; 12 ปี</string>
+    <string name="infant_age">&lt; 2 ปี</string>
+    <string name="passenger_adult">ผู้ใหญ่</string>
+    <string name="passenger_child">เด็ก</string>
+    <string name="passenger_infant">ทารก</string>
+    <string name="passenger_title">ผู้เดินทาง</string>
+    <string name="passenger_title_done">เสร็จสิ้น</string>
+    <string name="passenger_adult_more">ผู้ใหญ่</string>
+    <string name="passenger_child_more">เด็ก</string>
+    <string name="passenger_infant_more">ทารก</string>
+    <string name="error_max">จำนวนผู้โดยสารสูงสุด 9 คนต่อบุ้คกิ้ง</string>
+    <!--X--><string name="error_min">อย่างน้อย 1</string>
+    <string name="error_infant_morethan_adult">จำนวนทารกไม่สามารถมากกว่าผู้ใหญ่</string>
+    <string name="error_max_passenger_booking">จำนวนผู้โดยสารสูงสุด 9 คนต่อบุ้คกิ้ง</string>
+    <string name="error_max_passenger_adult">"จำนวนผู้ใหญ่สูงสุด 9 คนต่อบุคกิ้ง "</string>
+    <string name="error_max_passenger_child">จำนวนเด็กสูงสุด 9 คนต่อบุคกิ้ง</string>
+    <string name="error_max_passenger_infant">จำนวนทารกสูงสุด 4 คนต่อบุคกิ้ง</string>
+
+    <!--meals-->
+    <string name="meal_dragdrop">ลาก และวางเพื่อเพิ่มรายการ</string>
+    <!--X--><string name="inflight_meal">In Flight Meals</string>
+
+    <!--checkout-->
+    <string name="checkout_dpt_flight">เที่ยวบินขาไป</string>
+    <string name="checkout_subtotal">ผลรวมย่อย</string>
+    <string name="checkout_addon_fee">รายการเพิ่มเติม และค่าธรรมเนียม</string>
+    <string name="check_out_total">รวม</string>
+
+    <!--Travellers info-->
+    <string name="addons_name_notice">ชชื่อผู้เดินทางต้องตรงกับ ID ภาพถ่ายที่ออกโดยรัฐบาลในตัวอักษรโรมัน (A-Z) การเปลี่ยนแปลงชื่อหลังจากการจองจะต้องทำการซื้อเที่ยวบินใหม่</string>
+
+    <string name="addons_traveller1">ผู้โดยสาร 1</string>
+    <string name="addons_im_flying">ฉันคือผู้เดินทาง</string>
+    <string name="info_traveller2">ผู้เดินทาง 2</string>
+    <string name="info_travel_with">เดินทางมากับ</string>
+    <string name="info_select_one">เลือก</string>
+    <string name="info_gender_title">เพศ</string>
+    <string name="info_salutation_title">คำนำหน้า</string>
+    <string name="info_given_name">ชื่อ</string>
+    <string name="info_family_name">นามสกุล</string>
+    <string name="info_date_birth">วันเกิด</string>
+    <string name="info_select_birth">เลือกวันเดือนปีเกิด</string>
+    <string name="info_nationality">สัญชาติ</string>
+    <string name="info_contact_person">บุคคลที่ติดต่อ</string>
+
+    <!--Checkout-->
+    <string name="checkout_air_fare">ค่าบัตรโดยสาร</string>
+    <string name="checkout_payment_due">ยอดเงินที่ต้องชำระ</string>
+
+    <!--credit card-->
+    <string name="hint_month">เดือน</string>
+    <string name="hint_year">ปี</string>
+    <string name="cc_issuing_bank">บัตรเครดิต / เดบิตที่ออกโดยธนาคาร:</string>
+
+
+    <!--Payment-->
+    <string name="payment_secure_payment">การชำระเงิน</string>
+    <string name="payment_msos_code">รหัส MSOS</string>
+
+    <!--Payment due-->
+    <string name="available_big_point">คะแนน BIG Points ที่มี</string>
+    <string name="total_point_due">จำนวนคะแนนทั้งหมดที่ต้องใช้</string>
+    <string name="point_to_use">คะแนนที่ต้องการใช้</string>
+    <string name="payment_due">ยอดเงินที่ต้องชำระ</string>
+
+    <!--Flight itinenary-->
+    <string name="itinenary_departure">เที่ยวบินขาไป</string>
+    <string name="itinenary_return">เที่ยวบินขากลับ</string>
+    <string name="itinenary_passenger">ผู้เดินทาง</string>
+
+    <!--Flight list-->
+    <string name="flight_list_daparture">ต้นทาง</string>
+    <string name="flight_list_no_flight">ไม่มีเที่ยวบิน</string>
+
+    <!--Flight search-->
+    <string name="flight_search_select">เลือก</string>
+    <string name="flight_search_destination">ปลายทาง</string>
+    <string name="flight_search_depart_date">วันออกเดินทาง</string>
+    <string name="flight_select_depart_date">เลือกวันเดินทาง</string>
+    <string name="flight_search_return_date">วันเดินทางกลับ</string>
+    <string name="flight_select_return_date">เลือกวันเดินทาง</string>
+    <string name="flight_search_passenger">ผู้เดินทาง</string>
+    <string name="flight_search_adult">1 ผู้ใหญ่</string>
+    <string name="flight_search_reset">ตั้งค่าใหม่</string>
+    <string name="flight_search_promo_message">คุณได้เลือกเส้นทางจากรายการโปรโมชั่นของเรา หากคุณต้องการที่จะเลือกปลายทางอื่น ๆ กรุณากดที่ปุ่ม \"ตั้งค่าใหม่\"</string>
+
+    <!--Error Message-->
+    <string name="email_empty">กรุณาใส่อีเมล์</string>
+    <string name="email_invalid">กรุณากรอกอีเมลที่ถูกต้อง</string>
+    <string name="password_empty">กรุณาใส่รหัสผ่าน</string>
+    <string name="password_rule">ต้องมีอย่างน้อย 8 และสูงสุด 16 ตัวอักษร</string>
+
+    <!--Payment Failed-->
+    <string name="failed_msg_sorry">ขออภัย,</string>
+    <string name="failed_msg_transaction">ธุรกรรมของคุณไม่สำเร็จ</string>
+    <string name="failed_msg_tryagain">โปรดลองอีกครั้ง</string>
+    <!--X--><string name="failed_msg_button">TRY AGAIN</string>
+    <string name="failed_msg_cancel">ยกเลิกเที่ยวบิน</string>
+
+    <!--HOMEPAGE-->
+    <string name="depart_hint">เดินทางออกจาก</string>
+
+    <!--Homepage-->
+    <string name="home_depart_hint">เดินทางออกจาก</string>
+    <!--NO NEED--><string name="home_final_call">Final Call</string>
+    <!--NO NEED--><string name="home_fix_grid">Fixed Grid</string>
+    <!--NO NEED--><string name="home_schedule_extension">Scheduled Extension</string>
+    <string name="home_now">ตอนนี้ </string>
+    <string name="home_to">ไป</string>
+    <string name="redeem_caps">แลกคะแนน</string>
+
+    <!--RE-ARRANGED-->
+
+    <!--Base-->
+    <string name="base_loading">กำลังโหลด</string>
+    <string name="base_loading_ellipsis">กำลังโหลด&#8230;</string>
+    <string name="base_please_wait">โปรดรอ&#8230;</string>
+    <string name="base_update">คุณแน่ใจว่าต้องการที่จะอัพเดต?</string>
+    <string name="base_confirm">ได้รับการยืนยัน!</string>
+    <string name="base_cancel">ยกเลิก!</string>
+    <string name="base_connection_server">ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์</string>
+    <string name="base_no_internet">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+
+    <!--MainController-->
+    <!--X--><string name="main_session_expired">Session expired</string>
+    <string name="main_error">พบข้อผิดพลาด!</string>
+    <string name="main_invalid_user">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <!--X--><string name="main_sorry">Sorry!</string>
+    <string name="main_invalid_card">หมายเลขบัตรเครดิตไม่ถูกต้อง</string>
+
+    <!--Addons-->
+    <string name="addons_baggage">กำหนดอัตโนมัติ</string>
+    <string name="addons_meals">อาหาร</string>
+    <string name="addons_seat_selection">การเลือกที่นั่ง</string>
+    <string name="addons_travel_insurance">ประกันภัยการเดินทาง</string>
+    <!--X--><string name="addons_special_assistance">Special Assistance</string>
+    <string name="addons_points">คะแนน</string>
+    <string name="addons_auto_assign">กำหนดอัตโนมัติ</string>
+    <string name="addons_meal">อาหาร</string>
+    <string name="addons_none">ไม่มี</string>
+    <string name="addons_not_included">ไม่รวม</string>
+    <string name="addons_included">รวม</string>
+    <string name="addons_selected">เลือก</string>
+    <string name="addons_kg">กก.</string>
+    <string name="addons_alert">หมายเหตุ</string>
+    <string name="addons_message1">คุณได้สิทธิ์รับอาหารบนเที่ยวบินฟรีจากเรา กรุณาเลือกอาหารสำหรับวันออกเดินทาง</string>
+    <string name="addons_message2">คุณได้สิทธิ์รับอาหารบนเที่ยวบินฟรีจากเรา กรุณาเลือกอาหารสำหรับวันเดินทางกลับ</string>
+    <string name="addons_message3">คุณได้สิทธิ์โหลดสัมภาระฟรีจากเรา กรุณาเลือกโหลดสัมภาระสำหรับวันออกเดินทาง</string>
+    <string name="addons_message4">คุณได้สิทธิ์โหลดสัมภาระฟรีจากเรา กรุณาเลือกโหลดสัมภาระสำหรับวันเดินทางกลับ</string>
+    <string name="addons_message5">คุณได้สิทธิ์เลือกที่นั่งฟรีจากเรา กรุณาเลือกที่นั่งสำหรับวันออกเดินทาง</string>
+    <string name="addons_message6">คุณได้สิทธิ์เลือกที่นั่งฟรีจากเรา กรุณาเลือกที่นั่งสำหรับวันเดินทางกลับ</string>
+
+    <!--Insurance-->
+    <string name="insurance_not_available">ประกันภัยไม่สามารถใช้งานสำหรับเที่ยวบินนี้</string>
+    <string name="insurance_add">เพิ่ม</string>
+    <string name="insurance_added">รายการที่เพิ่มแล้ว</string>
+    <string name="insurance_text">ใช่ฉันต้องการซื้อแผนประกันภัยการเดินทางของแอร์เอเชียสำหรับทุกคนที่มีสิทธิซื้อประกันภัย</string>
+    <string name="insurance_title">ประกันการเดินทาง โดยแอร์เอเชีย</string>
+    <string name="insurance_text2">
+        <![CDATA[
+        ข้าพเจ้าขอยืนยันว่าข้าพเจ้าได้ศึกษาทำความเข้าใจ และยอมรับในข้อกำหนดและเงื่อนไขตามที่ได้ระบุไว้ใน  <a href="http://www.airasiainsure.com/my/ms/da/english.html" style="color: #e4170e;">ถ้อยคำประกาศและข้ออนุญาต</a>ของการประกันภัย และยอมรับใน <a href="https://www.tuneprotect.com/airasia/en/home/" style="color: #FF0000;">ข้อกำหนดและเงื่อนไข</a>ของกรมธรรม์ดังกล่าว ผมเข้าใจว่า ถ้าไม่ต้องการซื้อประกันการเดินทางแอร์เอเชีย ฉันสามารถยกเลิกการเอาออกจากแผนการเดินทาง ผมเข้าใจว่า ถ้าเปลี่ยนแผนการเดินทางเที่ยวบิน กรมธรรม์จะหมดอายุโดยอัตโนมัติ และจะซื้อนโยบายใหม่ออนไลน์
+        ]]>
+    </string>
+    <string name="insurance_text3">ไม่ต้องการ ขอบคุณ ข้าพเจ้าต้องการทำรายการต่อไปโดยไม่ซื้อประกันภัยการเดินทางของแอร์เอเชีย</string>
+    <string name="insurance_text4">หมายเหตุ: แผนประกันภัยการเดินทางของแอร์เอเชียรับประกันโดย ทูน อินชัวรันส์ มาเลเซีย เบอร์ฮาด</string>
+    <string name="insurance_text5">
+        <![CDATA[
+        กรุณาทำเครื่องหมายในช่องด้านหน้าเพื่อยืนยันว่าคุณเข้าใจและยอมรับข้อกำหนดและเงื่อนไขการบินของแอร์เอเชีย รวมทั้งข้อกำหนดและเงื่อนไขของการแลกบัตรโดยสาร เพื่อดำเนินการต่อ รวมถึงเข้าใจดีว่าหากสำรองที่นั่งแล้วจะไม่สามารถยกเลิกและขอคืนเงินได้ไม่ว่ากรณีใดๆ
+        ]]>
+    </string>
+    <string name="insurance_text7">
+        <![CDATA[
+        การปฏิเสธความรับผิดชอบ: แอร์เอเชียสงวนสิทธิ์ในการปฏิเสธการให้บริการผู้โดยสารหรือสัมภาระด้วยเหตุผลอันสมควร หากพิจารณาแล้วเห็นว่าการชำระเงินของท่านได้กระทำอย่างไม่ถูกต้องตามกฏหมายหรือเป็นการฉ้อฉล หรือการสำรองที่นั่งนั้นๆได้ดำเนินการอย่างผิดกฎหมาย หรือซื้อจากบุคคลที่ไม่ได้รับอนุญาตจากแอร์เอเชีย
+        ]]>
+    </string>
+    <string name="insurance_text6">
+        <![CDATA[
+        ผู้โดยสารต้องการความช่วยเหลือพิเศษ กรุณาติดต่อเจ้าหน้าที่ผ่าน <a href="http://www.airasia.com/my/en/live-chat.page" style="color: #e4170e;">Live Chat</a> เมื่อการสำรองที่นั่งได้รับการยืนยันจนถึง 48 ชั่วโมง ก่อนเวลาออกเดินทาง
+        ]]>
+    </string>
+    <string name="insurance_alert">แจ้งเตือน</string>
+    <string name="insurance_textA">โปรดยืนยันว่าคุณเห็นด้วยกับข้อกำหนดและเงื่อนไข</string>
+    <string name="insurance_textB">Please choose</string>
+
+    <string name="text_message">คุณเลือกรายการเพิ่มเติมเต็มจำนวนแล้ว กรุณายกเลิกบางรายการก่อนหน้าเพื่อทำการเปลี่ยนแปลง</string>
+    <string name="text_message2">ไม่สามารถทำรายการน้อยกว่าคะแนนขั้นต่ำ</string>
+    <string name="fail_message">โหลดไม่สำเร็จ</string>
+    <string name="message2">ไม่สามารถทำรายการน้อยกว่าคะแนนขั้นต่ำ</string>
+    <string name="message3">ไม่สามารถทำรายการเกินกว่าคะแนนสูงสุด</string>
+
+    <string name="passanger_x">x  ผู้โดยสาร</string>
+    <string name="thanks">ขอบคุณ</string>
+    <string name="need_payment">ต้องชำระเงิน</string>
+    <!--X--><string name="pending_payment">Pending Payment</string>
+    <string name="success_payment">ยืนยันแล้ว</string>
+    <string name="email_message">ถ้าคุณทำการชำระเงินสำเร็จ แต่ไม่ได้รับการยืนยันใด ๆ เกี่ยวกับสถานะการจอง หลังจาก 2 ชั่วโมง โปรดมั่นใจได้ว่าบุคกิ้งของคุณจะถูกตรวจสอบโดยเจ้าหน้าที่ของแอร์เอเชียภายใน 48 ชั่วโมง และอีเมลยืนยันจะถูกส่งถึงคุณ แต่หากการชำระเงินไม่ได้ถูกหักจากบัญชี โปรดดำเนินการจัดการบุ๊คกิ้งที่เว็บไซต์ของแอร์เอเชียเพื่อดูยอดชำระคงค้าง</string>
+    <string name="email_message2">อีเมลยืนยันพร้อมสรุปการชำระเงินของคุณถูกส่งไปที่&#160;</string>
+
+    <string name="card_info">ข้อมูลบัตร</string>
+    <string name="payment_title">Payment Failed</string>
+    <string name="process_payment">ดำเนินการชำระเงิน</string>
+
+    <string name="guest">ผู้โดยสาร</string>
+    <string name="adult">ผู้ใหญ่</string>
+    <string name="salutation_text">กรุุณาระบุคำนำหน้า</string>
+    <string name="family_name_required">กรุุณาระบุนามสกุล</string>
+    <string name="nationality_required">กรุณาระบุสัญชาติ</string>
+    <string name="given_name_required">ชื่อของคุณเป็นสิ่งจำเป็น</string>
+    <string name="dob_required">กรุุณาระบุวันเดือนปีเกิด</string>
+    <string name="travelling_required">กรุุณาระบุผู้ที่เดินทางด้วย</string>
+    <string name="gender_required">กรุุณาระบุเพศ</string>
+
+    <string name="tnc_text">โปรดยืนยันว่าคุณเห็นด้วยกับข้อกำหนดและเงื่อนไข</string>
+    <string name="passenger_text">ผู้เดินทาง</string>
+    <string name="adult_text">(ผู้ใหญ่)</string>
+    <string name="child_text">(เด็ก)</string>
+    <string name="infant_text">(ทารก)</string>
+
+    <string name="popup_text">กรุณาเลือกเที่ยวบินของคุณ</string>
+    <!--RECHECK--><string name="fixed">Fixed</string>
+    <!--RECHECK--><string name="regular">ปกติ</string>
+    <!--RECHECK--><string name="promo">โปรโมชั่น</string>
+    <!--RECHECK--><string name="premium_flex">Premium Flex</string>
+    <!--RECHECK--><string name="premium_flatbed">ชั้นธุรกิจ</string>
+    <!--NO NEED--><string name="fixed_c">FIXED</string>
+    <!--NO NEED--><string name="regular_c">ปกติ</string>
+    <!--NO NEED--><string name="promo_c">โปรโมชั่น</string>
+    <!--NO NEED--><string name="premium_flex_c">PREMIUM FLEX</string>
+    <!--NO NEED--><string name="premium_flatbed_c">ชั้นธุรกิจ</string>
+
+    <string name="content">คุณแน่ใจว่าต้องการที่จะยกเลิกบุคกิ้งนี้?</string>
+    <string name="no">ไม่</string>
+    <string name="yes">ใช่</string>
+    <string name="message_alert">อีเมลไม่ถูกต้อง</string>
+    <string name="alert_message2">ข้อมูลไม่ครบถ้วน กรุณากรอกข้อมูลลงในช่องว่าง</string>
+    <string name="error_title">อายุไม่ถูกต้อง</string>
+    <string name="error_message1">ผู้ใหญ่จะต้องมีอายุตั้งแต่ 12 ปีขึ้นไป</string>
+    <string name="error_message2">เด็กจะต้องมีอายุระหว่าง 2 ถึง 11 ปี</string>
+    <string name="error_message3">ทารกจะต้องมีอายุมากกว่า 9 วัน และน้อยกว่า 2 ปี นับจากวันออกเดินทางครั้งแรก (AAB)</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight_availability">"ขออภัย ไม่พบเที่ยวบิน กรุณาเลือกวันที่อื่นหรือสถานี และลองอีกครั้ง "</string>
+    <string name="select_date">เลือกวันเดินทาง</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_success">สำเร็จ!</string>
+
+    <!--Change Password-->
+    <string name="password_mismatch">รหัสผ่านไม่ตรงกัน</string>
+    <string name="password_length">ต้องมีอย่างน้อย 8 และสูงสุด 16 ตัวอักษร</string>
+    <string name="password_changed">เปลี่ยนรหัสผ่านแล้ว!</string>
+    <string name="error_message">รหัสผ่านต้องมีตัวอักษรพิมพ์ใหญ่ ตัวเลขและเครื่องหมายสัญลักษณ์</string>
+
+    <!--Picker-->
+    <!--X--><string name="member_login_title">Member Login</string>
+    <!--X--><string name="picker_message1">Selected date must be between</string>
+    <string name="picker_and">และ</string>
+    <string name="picker_departure_station">สถานีที่ออกเดินทาง</string>
+    <!--X--><string name="picker_arrival_station">Arrival Station</string>
+    <!--X--><string name="picker_preferred">Select preferred language</string>
+    <!--X--><string name="picker_enter_keyword">Enter keyword</string>
+    <string name="picker_select_gender">เลือกเพศ</string>
+    <string name="picker_select_departure">เลือกสนามบินต้นทาง</string>
+    <string name="picker_select_arrival">เลือกเดินทางมาถึงสถานี</string>
+    <string name="select_country_title">เลือกประเทศ</string>
+
+    <!--Option-->
+    <string name="please_select_country">โปรดเลือกประเทศ</string>
+    <string name="term_title">ข้อกำหนดการใช้งาน</string>
+    <string name="qr_title">รหัส QR ของฉัน</string>
+
+    <!--Edit-->
+    <string name="edit_utils">โปรดเลือกประเทศ</string>
+    <string name="edit_success">ขอบคุณ! อัพเดตสำเร็จแล้ว</string>
+    <!--X--><string name="error_not_save">Image not saved</string>
+
+    <!--Main-->
+    <!--X--><string name="main_connection_body">Please connect to working Internet connection</string>
+    <!--X--><string name="main_toast">New Message:</string>
+
+    <!--Registration-->
+    <string name="register_success_message">ขอบคุณ! กรุณาตรวจสอบอีเมลของคุณเพื่อทำการลงทะเบียน</string>
+    <string name="register_error">พบข้อผิดพลาด</string>
+    <string name="register_password_invalid">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="register_password_length">ต้องมีอย่างน้อย 8 และสูงสุด 16 ตัวอักษร</string>
+
+    <!--Splash Screen-->
+    <!--X--><string name="updateTitle">App Update</string>
+    <!--X--><string name="updateBody">New version available at PlayStore</string>
+
+    <!--Token-->
+    <string name="token_connection_error">การเชื่อมต่อผิดพลาด</string>
+    <string name="token_retry">ลองอีกครั้ง</string>
+
+    <!--Adapter-->
+    <string name="adapter_seat_left">%1$s จำนวนที่นั่งที่เหลือ!</string>
+    <string name="adapter_salutation_required">กรุุณาระบุคำนำหน้า</string>
+    <string name="adapter_family_name_required">กรุุณาระบุนามสกุล</string>
+    <string name="adapter_given_name_required">กรุุณาระบุชื่อ</string>
+    <string name="adapter_travelling_required">กรุุณาระบุผู้ที่เดินทางด้วย</string>
+    <string name="adapter_gender_required">กรุุณาระบุเพศ</string>
+    <string name="adapter_seat_left1">เหลือ %1$s ที่นั่ง</string>
+    <string name="adapter_seat_left2">เหลือ %1$s ที่นั่ง</string>
+
+    <!--Error Message-->
+    <!--X--><string name="error1">Contact Person Phone is required</string>
+    <string name="error2">คะแนนสะสม BIG Points ของท่านไม่เพียงพอให้ดำเนินการ</string>
+    <string name="error3">คุณใช้เวลาเกินกำหนด กรุณาเข้าสู่ระบบอีกครั้ง</string>
+    <!--X--><string name="error4">Validation Error</string>
+    <!--X--><string name="error5">Country Code is required</string>
+
+    <!--action bar-->
+    <string name="action_pay">จ่ายเงิน</string>
+    <string name="action_new_flight">เที่ยวบินใหม่</string>
+
+    <!--Password expired-->
+    <!--NOT USE--><string name="hint_enter_current_password">Enter current password</string>
+    <!--NOT USE--><string name="hint_enter_new_password">Enter new password</string>
+    <!--NOT USE--><string name="hint_enter_confirm_password">Enter Confirm Password</string>
+
+    <!--add profile image-->
+    <string name="change_photo">เปลี่ยนรูป</string>
+    <string name="take_photo">ถ่ายรูป</string>
+    <string name="choose_photo">เลือกจากรูปภาพ</string>
+    <string name="remove_photo">ลบรูป</string>
+    <string name="cancel">"ยกเลิก "</string>
+
+
+    <string name="addon_star">รายการเพิ่มเติมฟรี สำหรับเที่ยวบินของคุณ</string>
+    <!--X--><string name="baggage_meal_not">Not available for this flight</string>
+    <string name="done">เสร็จสิ้น</string>
+    <string name="depart">ออกเดินทาง</string>
+    <string name="returned">ไป-กลับ</string>
+    <string name="booking_number">หมายเลขการจอง:</string>
+    <string name="point_redeem">รวมคะแนนที่แลก:</string>
+    <string name="total_paid">รวมยอดชำระ:</string>
+    <string name="transaction_number">หมายเลขธุรกรรม:</string>
+    <string name="book_no">หมายเลขการจอง</string>
+    <string name="w_update">อัพเดต</string>
+
+    <!--Force update-->
+    <string name="fu_new_version">เวอร์ชั่นใหม่พร้อมให้บริการ</string>
+    <string name="fu_desc">สามารถดาวน์โหลดเวอร์ชั่นใหม่ได้แล้ว! โปรดอัพเดตแอพโดยเข้าไปที่ Google Play Store</string>
+
+    <string name="select">เลือก</string>
+    <string name="your_language">ภาษาของคุณ</string>
+    <string name="baggage_kg">สัมภาระ 20 กก.</string>
+    <string name="hot_seat">เลือกที่นั่ง Hot Seats ฟรี</string>
+    <string name="comp_meal">รับประทานอาหารฟรี 1 ที่</string>
+    <string name="fare_differ">เเปลี่ยนวัน/เวลาเดินทางได้ 2 ครั้ง โปรดแจ้งล่วงหน้าอย่างน้อย 2 ชั่วโมงก่อนออกเดินทาง ทั้งนี้ขึ้นอยู่กับความแตกต่างของค่าโดยสาร</string>
+    <string name="lounge">บริการเลานจ์สำหรับเที่ยวบินระหว่างประเทศที่เดินทางจาก KLIA2</string>
+    <string name="kg_baggage">กระเป๋า 40 กก.</string>
+    <string name="any_differ">ไม่จำกัดการเปลี่ยนวัน/เวลาเดินทาง โปรดแจ้งล่วงหน้าอย่างน้อย 2 ชั่วโมงก่อนออกเดินทาง ทั้งนี้ขึ้นอยู่กับความแตกต่างของค่าโดยสาร</string>
+    <string name="lounge2">Flatbed + บริการเลานจ์สำหรับเที่ยวบินระหว่างประเทศที่เดินทางจาก KLIA2</string>
+    <string name="insurance_desc">ผู้โดยสารต่อไปนี้เข้าหลักเกณฑ์สำหรับประกันภัยการเดินทาง</string>
+    <!--X--><string name="shaker">Shake For Random Holiday</string>
+    <string name="no_promo">อุ๊บส์! ไม่มีเส้นทางโปรโมชั่นใกล้ๆคุณ กรุณาเลือกสถานที่อื่น</string>
+    <string name="confirm_sym">ได้รับการยืนยัน &gt;</string>
+    <string name="process_fee">ค่าธรรมเนียมการดำเนินการ:&#160;</string>
+    <string name="payment_desc">ค่าธรรมเนียมนี้จะคิดค่าบริการต่อผู้โดยสารสำหรับแต่ละเที่ยวบิน เมื่อชำระเงินออนไลน์ผ่านบัตรเครดิตบัตรเดบิตและบัตรเติมเงินเท่านั้น</string>
+    <string name="payment_amount_due">จำนวนเงินทั้งหมด:&#160;</string>
+    <string name="payment_card_type">ประเภทบัตร</string>
+    <string name="payment_card_number">หมายเลขบัตร</string>
+    <string name="payment_expired_date">วันหมดอายุ</string>
+    <string name="card_holder">ชื่อเจ้าของบัตร</string>
+    <string name="issuing_bank">บัตรเครดิต / เดบิตที่ออกโดยธนาคาร:</string>
+    <string name="card_issuer">ชื่อธนาคารที่ออกบัตร:</string>
+    <!--NOT USE--><string name="test_issuer_card">Testing Card Issuer - (Hardcoded)</string>
+    <string name="country_issue">ประเทศผู้ออกบัตร:</string>
+    <!--NOT USE--><string name="test_country_issue">Testing Card Issuer Country - (Hardcoded)</string>
+    <string name="billing_address">ที่อยู่เรียกเก็บเงิน</string>
+    <string name="bill_add1">ที่อยู่เรียกเก็บเงิน 1</string>
+    <string name="bill_add2">ที่อยู่เรียกเก็บเงิน 2</string>
+    <string name="town_city">เมือง</string>
+    <string name="process">กำลังประมวลผล&#8230;</string>
+    <string name="qr">รหัส QR ของฉัน</string>
+    <string name="recent_search">การค้นหาล่าสุด</string>
+    <string name="your_country">ประเทศของคุณ</string>
+    <string name="coming_soon">พบกันเร็ว ๆ นี้</string>
+    <!--X--><string name="aab_big_prepaid">AirAsia BIG Prepaid</string>
+    <string name="TBD_user_profile">โพรไฟล์ผู้ใช้</string>
+    <string name="adapter_dob_required">กรุุณาระบุวันเดือนปีเกิด</string>
+    <string name="adapter_nationality_required">กรุณาระบุสัญชาติ</string>
+    <string name="alert_text1">เลือกสนามบินต้นทางของคุณ</string>
+    <string name="alert_text2">เลือกสนามบินปลายทางของคุณ</string>
+    <string name="alert_text3">เลือกวันออกเดินทาง</string>
+    <string name="alert_text4">เลือกวันเดินทางกลับ</string>
+    <string name="base_connection_error">การเชื่อมต่อผิดพลาด</string>
+    <string name="title_mr">นาย</string>
+    <string name="title_ms">นางสาว</string>
+    <string name="bigfun_music">Music</string>
+    <string name="bigfun_setting_title">Setting</string>
+    <string name="bigfun_sound">Sound</string>
+    <string name="btn_play">Play</string>
+    <string name="cvv">เลข CVV / CVC</string>
+    <string name="home_exit">ออก</string>
+    <string name="message_progress">กำลังดำเนินการชำระเงิน กรุณารอสักครู่&#8230;</string>
+    <string name="options_about_follow">ติดตามเราเพื่อรับข้อมูลข่าวสารอัพเดต</string>
+    <string name="pts_with_space">&#160;คะแนน</string>
+    <string name="hr">h</string>
+    <string name="min">m</string>
+
+    <string name="notification_title">การแจ้งเตือน</string>
+    <string name="notification_delete">การแจ้งเตือนถูกลบ</string>
+    <string name="no_notification">คุณไม่มีข้อความแจ้งเตือนใหม่</string>
+    <string name="message">ข้อความ</string>
+    <string name="messages">ข้อความ</string>
+</resources>

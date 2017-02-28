@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="need_payment">#ECA823</color>
+
+    <!-- TESTING START-->
+    <color name="backColor">#E4180F</color>
+    <color name="red_text">#E21512</color>
+    <color name="space">#EDEDED</color>
+    <color name="grey_big">#d3d3d3</color>
+    <color name="grey_light">#EEEEEE</color>
+    <!-- TESTING END-->
+
+    <color name="selected_flight">#E6F3D9</color>
+
+    <color name="primary_green">#80B540</color>
+    <color name="dark_green">#6BA039</color>
+    <color name="bright_green">#57F900</color>
+    <color name="green_tick">#41AD49</color>
+    <color name="dark_gray">#333333</color>
+    <color name="operated_by">#100BDF</color>
+
+
+    <color name="title">#434343</color>
+    <color name="button_pay">#EB332E</color>
+    <color name="field">#D9D9D9</color>
+
+    <color name="theme1_header_transparent">#CCff6a4d</color>
+
+    <color name="theme1_drawer_bg">#362f2d</color>
+    <color name="grey">#d3d3d3</color>
+
+    <color name="loadinglayout">#4C4C4C</color>
+    <color name="white">#ffffff</color>
+    <color name="white_50op">#80FFFFFF</color>
+    <color name="white_80op">#CCFFFFFF</color>
+    <color name="orange_firefly">#fa9f3c</color>
+
+    <color name="product_list_click_grey">#E8E8E8</color>
+
+    <color name="black">#000000</color>
+    <color name="blackv2">#595959</color>
+
+    <color name="darkgrey">#535353</color>
+    <color name="grey_background">#aaaaaa</color>
+    <color name="normal_grey">#dadada</color>
+    <color name="light_grey_background">#eeeeee</color>
+    <color name="red">#ee4d34</color>
+    <color name="pink">#FCE7E6</color>
+
+
+    <color name="light_grey">#7A7A7A</color>
+    <color name="bright_red">#FD0620</color>
+
+    <color name="desired_seat">#95C94A</color>
+    <color name="preferred_seat">#FFFF00</color>
+    <color name="standard_seat">#FFA500</color>
+
+    <color name="selected_passenger">#FFD504</color>
+
+    <!-- SEAT -->
+    <color name="seat_standard">#ff9933</color>
+    <color name="seat_preferred">#ffff00</color>
+    <color name="seat_desired">#71db71</color>
+
+    <!-- HomePage Firefly UI -->
+    <color name="dark_lvl0">#f2f2f2</color>
+
+    <color name="dark_lvl1">#E6E6E6</color>
+    <color name="dark_lvl2">#d9d9d9</color>
+    <color name="dark_lvl3">#cccccc</color>
+    <color name="dark_lvl4">#b3b3b3</color>
+
+
+    <color name="dark_lvl1_transparent">#00ffffff</color>
+    <color name="grey_lvl5">#DCD9D4</color>
+
+    <color name="home_description_layout">#4C4C4C</color>
+    <color name="dark_lvl5">#444444</color>
+    <color name="sign_in_button">#404040</color>
+    <color name="sign_in_button_click">#666666</color>
+
+    <color name="blackv5">#262626</color>
+    <color name="dark_lvl6">#333333</color>
+    <color name="red_lvl6">#FF8566</color>
+
+
+    <!-- Login -->
+    <color name="loginFontTxt">#A8A8A8</color>
+    <color name="loginNoAccountYet">#F79B74</color>
+    <color name="main_border">#808080</color>
+
+
+    <!-- Register -->
+    <color name="registerBasicInfo">#F16F21</color>
+    <color name="registerBasicInfoText">#000000</color>
+
+    <!-- BookingFlight -->
+    <color name="myrColour">#141482</color>
+
+    <!-- Boarding Pass -->
+    <color name="boarding_pass_colour">#f2f2f2</color>
+
+    <color name="test1">#E6E6E6</color>
+    <color name="test2">#E6E6E6</color>
+
+    <!-- TBD THEME -->
+
+    <color name="default_colour">#e4170e</color>
+    <!-- Header -->
+    <color name="default_theme_colour">#e4170e</color>
+    <color name="background">#D4D4D4</color>
+    <color name="default_background">#FFFFFF</color>
+    <color name="ssr_background_1">#E6E6E6</color>
+
+    <!-- Tab Colour -->
+
+    <color name="tab_colour">#e6e6e6</color>
+    <color name="theme1_tab_bg_1">#ff4d4d</color>
+    <color name="theme1_tab_bg_1_click">#774964</color>
+
+    <color name="theme1_tab_bg_2">#ff3333</color>
+    <color name="theme1_tab_bg_2_click">#FFCD6C</color>
+
+    <color name="theme1_tab_bg_3">#ff1a1a</color>
+    <color name="theme1_tab_bg_3_click">#FF8871</color>
+
+    <color name="theme1_tab_bg_4">#ff0000</color>
+    <color name="theme1_tab_bg_4_click">#77DDC1</color>
+
+    <color name="theme1_tab_bg_5">#e60000</color>
+    <color name="theme1_tab_bg_5_click">#FF955D</color>
+
+    <color name="name_transparent_background">#40000000</color>
+    <color name="name_fb_transparent_background">#BFFFFFFF</color>
+
+    <color name="onclick_my_profile">#f2f2f2</color>
+    <color name="search_flight_background">#434343</color>
+
+    <!-- Search Flight -->
+    <color name="zeroClick_departFlight">#E43117</color>
+    <color name="onClick_departFlight">#ED5C45</color>
+    <!--Date Picker -->
+    <color name="mdtp_accent_color">#E43117</color>
+    <color name="mdtp_accent_color_dark">#ED5C45</color>
+
+    <color name="textLinkColor">#FF0000</color>
+    <color name="light_pink">#FAD1CF</color>
+
+    <!--Traveller's Info-->
+    <color name="light_yellow">#FFF59E</color>
+    <color name="medium_grey">#808080</color>
+
+    <!--Big Point-->
+    <color name="grey_666666">#666666</color>
+
+    <!--flight_detail_list-->
+    <color name="grey_999999">#999999</color>
+
+    <color name="grey_flight_initianery">#989898</color>
+
+
+    <!-- times-square calendar colour -->
+    <color name="calendar_highlighted_day_bg">@color/red_lvl6</color>
+
+    <!-- Btn Search Flight -->
+    <color name="btn_search_flight">#00cc5b</color>
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+
+</resources>

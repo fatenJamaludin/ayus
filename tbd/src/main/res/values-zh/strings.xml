@@ -1,0 +1,667 @@
+<resources>
+
+    <!--NO NEED--><string name="app_name">AirAsia BIG</string>
+    <string name="version">版本 1.1.6</string>
+
+    <!-- DropDown Value -->
+    <string-array name="gender">
+        <item>男性/Male</item>
+        <item>女性/Female</item>
+    </string-array>
+
+    <!--action bar-->
+    <string name="ab_cancel">取消</string>
+    <string name="ab_search">搜索</string>
+    <string name="ab_logout">登出</string>
+    <string name="ab_plus">+</string>
+    <string name="ab_done_c">完成</string>
+    <string name="ab_done">完成</string>
+    <string name="ab_save_cptl">存档</string>
+    <string name="ab_continuev2">继续</string>
+    <string name="ab_next">继续</string>
+    <string name="ab_login_c">登录</string>
+    <string name="ab_edit">编辑</string>
+
+    <!--ONBOARDING-->
+    <string name="onboarding_skip">跳跃</string>
+    <string name="onboarding_continue">继续</string>
+
+    <!--Before Login-->
+    <string name="login_button">登录</string>
+    <string name="signup_button">登记</string>
+
+    <!-- TITLE / HEADER -->
+    <string name="header_welcome_back">欢迎回来</string>
+    <string name="header_user_profile">用户资料</string>
+    <string name="header_addons">增值服务</string>
+    <string name="header_addons_capital">增值服务</string>
+    <string name="header_pick_seat">选择座位</string>
+    <string name="header_checkout">订购</string>
+    <string name="header_payment">PAYMENT</string>
+    <!--NOT USE--><string name="header_select_card">Select Card</string>
+    <string name="header_summary">总结</string>
+    <string name="header_traveller_info">乘客资料</string>
+    <string name="header_depart">出发地</string>
+    <string name="depart_flight">出发航班</string>
+    <string name="passenger_title_with_s">乘客</string>
+    <string name="header_return">往返</string>
+    <string name="return_flight">回程航班</string>
+
+    <!--TITLE/HEADER TAB-->
+    <string name="TBD_home">主页</string>
+    <string name="TBD_flight_search">航班搜索</string>
+    <string name="TBD_big_fun">BIG趣问趣答</string>
+
+    <!-- REGISTER -->
+    <string name="register_continue_button">继续</string>
+    <string name="register_confirm_password">确认密码</string>
+    <string name="register_basic_information">基本信息</string>
+    <string name="register_country">国家</string>
+    <string name="register_state">州属</string>
+    <string name="register_language">语言</string>
+    <string name="register_password_policy">密码政策</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight">预订航班</string>
+    <string name="book_flight_one_way">单程</string>
+    <string name="book_flight_return">往返</string>
+    <string name="book_flight_adult">成人</string>
+
+    <!-- BOOKING FLIGHT - LIST FLIGHT -->
+    <string name="book_flight_basic">基本</string>
+    <!--NO NEED--><string name="book_flight_premier">PREMIER</string>
+
+    <!-- General -->
+    <string name="general_continue">继续</string>
+    <string name="general_success">成功!</string>
+    <string name="pts">积分</string>
+    <string name="home_exit">离开</string>
+    <string name="home_confirm_exit">确认退出？</string>
+    <string name="home_cancel">取消</string>
+    <string name="home_close">关闭</string>
+
+    <!-- Update Profile -->
+    <string name="update">更新</string>
+
+    <!-- Mobile Check in -->
+    <string name="title_activity_terms">条款/条规</string>
+
+    <!-- Forgot Password Module -->
+    <string name="forgotPasswordExpired">密码已过期</string>
+    <string name="forgotPasswordCurrent">先用密码</string>
+    <string name="forgotPasswordNew">新密码</string>
+    <string name="forgotPasswordConfirm">确认密码</string>
+
+    <!-- General-->
+    <string name="date_ob">出生日期</string>
+    <!--NO NEED--><string name="textview_placeholder_lbl">TextView</string>
+    <string name="stateListDialogTitle">请选择国家</string>
+    <string name="failed_load">无法加载</string>
+
+    <!-- TBD LOGIN PAGE -->
+    <string name="login_">登录</string>
+    <string name="login_forgot_password">忘记密码?</string>
+    <!--NO NEED--><string name="login_fb_button">Login via Facebook</string>
+    <!--NO NEED--><string name="login_example_email">example@mail.com</string>
+    <!--NO NEED--><string name="login_example_password">********</string>
+
+    <!-- TBD FORGOT PASSWORD -->
+    <string name="forgot_password_title">忘记密码</string>
+    <!--NO NEED--><string name="forgot_password_email">example@mail.com</string>
+    <!--NOT USE--><string name="title_activity_password_expired">PasswordExpiredActivity</string>
+    <string name="password_expire_text">您的密码已过期，必须更改。密码需包含至少 8 个字符，其中必须有一个大写字符、 一个小写字母、 一个数字和一个符号。例如︰ SkyPark+123</string>
+
+    <!-- General -->
+    <string name="email">电子邮件</string>
+    <string name="password">密码</string>
+    <string name="current_password">先用密码</string>
+    <string name="btn_continue">编辑 ></string>
+    <string name="fill_emtpy_field">错误。请根据显示更正错误。</string>
+    <string name="success">成功！</string>
+
+    <!-- Reset Password -->
+    <string name="reset_new_password">新密码</string>
+
+    <!-- TBD Profile -->
+    <string name="profile_my_profile">我的个人资料</string>
+    <string name="tbd_my_big_point">我的 BIG 积分</string>
+    <!--NOT USE--><string name="tbd_my_credit_card">My Credit Card</string>
+    <!--NO NEED--><string name="facebook">Facebook</string>
+    <string name="options">选项</string>
+
+    <!--Options-->
+    <string name="options_app_settings">应用程序设置</string>
+    <string name="options_information">信息</string>
+    <string name="options_about">关于</string>
+    <string name="btn_nxt">继续</string>
+    <string name="options_terms">BIG忠诚会员</string>
+    <string name="options_terms_conditions">条款和条件</string>
+    <string name="options_privacy">TBD 隐私政策</string>
+    <string name="options_reset_password">重设</string>
+    <string name="option_reset_password_text">如要重置密码，请输入您用于登录AirAsia BIG的电子邮件地址。</string>
+    <string name="options_change_language">更改语言</string>
+    <string name="options_logout">登出</string>
+    <string name="option_select_language">选择语言</string>
+
+    <!--Credit card-->
+    <!--NOT USE--><string name="tbd_big_point_no_credit_card">No Credit Card</string>
+    <string name="credit_card_number">卡号</string>
+    <string name="credit_card_expiry_date">过期日期</string>
+    <!--NO NEED--><string name="credit_card_cvv">CVV</string>
+    <string name="credit_card_country">国家</string>
+
+    <!--AAB View My Profile -->
+    <string name="profile_personal_details">个人资料</string>
+    <string name="profile_salutation">称呼</string>
+    <string name="profile_given_name">名</string>
+    <string name="profile_family_name">姓</string>
+    <string name="profile_dob">出生日期</string>
+    <string name="profile_nationality">国籍</string>
+    <string name="profile_mobile">手机号码</string>
+    <string name="profile_passport">护照号码</string>
+    <string name="profile_address">地址</string>
+    <string name="profile_street1">街1</string>
+    <string name="profile_street2">街2</string>
+    <string name="profile_city">城市</string>
+    <string name="profile_post_code">邮区编号</string>
+    <string name="profile_state">州属</string>
+    <string name="profile_country">国家</string>
+    <string name="edit_profile">更改个人资料</string>
+    <string name="profile_emergency">紧急联系人</string>
+    <string name="profile_name">名称</string>
+    <string name="profile_parent_detail">父母资料</string>
+    <string name="profile_document_no">文件号码</string>
+    <string name="profile_edit">继续</string>
+    <string name="profile_bigshot_id">BIG会员ID :</string>
+
+    <!-- TBD Search Flight -->
+    <!--XX--><string name="search_flight_title">Select your origin</string>
+    <string name="book_flight_departure_title">出发地</string>
+    <string name="book_flight_destination_title">目的地</string>
+    <string name="book_flight_departure_dates">出发日期</string>
+    <string name="book_flight_select_departure_date">选择出发日期</string>
+    <string name="book_flight_return_date">回程日期</string>
+    <string name="book_flight_select_return_date">选择返回日期</string>
+
+    <!-- TBD Holiday Shaker -->
+    <string name="holiday_shaker_reedem">兑换</string>
+
+    <!-- TBD Register -->
+    <string name="register_title">登记</string>
+    <string name="register_continue">注册 ></string>
+    <string name="register_given_name">名</string>
+    <string name="register_family_name">姓</string>
+    <string name="register_nick_name">昵称</string>
+    <string name="register_nationality">国籍</string>
+    <string name="register_mobile">手机号码</string>
+    <string name="register_personal_detail">个人资料</string>
+    <string name="register_contact_detail">联络资料</string>
+    <string name="register_postcode">邮区编号</string>
+    <string name="register_select_state">请选择国家</string>
+    <string name="register_select_language">请选择语言</string>
+    <string name="register_select_country">请选择国家</string>
+    <string name="register_select_nationality">请选择国籍</string>
+    <string name="register_check_subscribe">订阅亚航电子报</string>
+    <string name="register_newsletter_language_hint">请选择语言</string>
+    <string name="register_general_loading">加载 &#8230;</string>
+    <string name="register_password_style">密码必须是8&#8211;15个字母数字及具备以下条件：数字（0&#8211;9），小写字母（a&#8211;z），大写字母（A&#8211;Z)</string>
+    <string name="register_city">市镇 / 城市</string>
+    <string name="register_newsletter_language">电子报语言</string>
+
+    <!--NO NEED--><string name="register_confirm_information">
+    <![CDATA[
+        I confirm that the above information provided by me is true and accurate and understand that the AirAsia BIG Loyalty Programme is operated by Think BIG Digital Sdn Bhd. I have read and hereby agree to the <a href="http://www.airasiabig.com/my/en/assets/pdf/tnc-big-loyalty_en-GB.pdf" style="color: #FF0000;">terms and conditions of the AirAsia BIG Loyalty Membership</a> operated by Think BIG Digital Sdn Bhd, which shall be binding on me.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_acknowledge_member">
+    <![CDATA[
+    I further acknowledge that in order to proceed with the membership application, registration and/or subscription and the provision of services, benefits and privileges related to the AirAsia BIG Loyalty Programme and the AirAsia membership, the sharing, transfer, retrieval, updating and processing of my personal information and data as well as creation of member profile and user accounts may occur between Think BIG Digital Sdn Bhd, AirAsia Berhad, Tune Money Sdn Bhd and each of their respective group companies, related corporations, affiliates, subsidiaries, associates (as further stated in Think BIG Digital Sdn Bhd’s and AirAsia Berhad’s Privacy Policies) and I confirm that I have read <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a> and consent to the processing of my personal data for purposes of the same. I further agree that by browsing and using the website(s) and services and/or products contained herein, I agree to <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">AirAsia Berhad’s Terms of Use</a> and <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Terms of Use</a>.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_parent_confirm">
+    <![CDATA[
+    In making this AirAsia BIG Loyalty membership and AirAsia membership, I hereby declare that (i) I, the applicant, am at least 18 years of age; (ii) I am the parent and/or guardian of the Minor; (iii) I am applying for the BIG Loyalty Membership and AirAsia Membership for and on behalf of the Minor (iv) I consent to the sharing and processing of the Minor’s personal data and information in accordance with <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a>.
+    ]]>
+    </string>
+
+    <!-- Forgot Password -->
+    <string name="reset_password_success_send">忘记密码链接已经发送到您注册的电子邮件。</string>
+    <string name="update_password_success_send">密码更新成功！</string>
+
+    <!-- TBD Facebook ID -->
+    <!--NO NEED--><string name="facebook_app_id">1143272665731321</string>
+
+    <!--Big Point-->
+    <string name="big_id">BIG会员ID</string>
+    <string name="transaction_history">交易历史记录</string>
+    <string name="tbd_points_expiry">到期积分</string>
+    <!--XX--><string name="tbd_big_point_no_transaction">No Transaction History</string>
+    <string name="big_point_total_points">总积分</string>
+    <string name="big_point_expiring">积分失效(6个月内)</string>
+    <string name="big_point_expiring_in">到期积分</string>
+    <string name="points_as_of">积分（截至今日）</string>
+
+    <!-- SELECTION FRAGMENT TITLE -->
+    <string name="select_country">选择国家</string>
+    <string name="select_language">选择语言</string>
+    <string name="select_state">选择州属</string>
+    <!--XX--><string name="select_nationality">Select nationality</string>
+    <string name="select_title">选择称呼</string>
+
+    <string name="tbd_my_booking">我的预订</string>
+    <string name="profile_address_title">地址</string>
+    <string name="select_departure_date">选择出发日期</string>
+    <string name="select_return_date">选择返回日期</string>
+
+    <!--Custom_passenger_picker-->
+    <string name="adult_age">&gt; 12 岁</string>
+    <string name="child_age">2 &#8211; 12岁</string>
+    <string name="infant_age">&lt; 2年</string>
+    <string name="passenger_adult">成人</string>
+    <string name="passenger_child">儿童</string>
+    <string name="passenger_infant">婴儿</string>
+    <string name="passenger_title">乘客</string>
+    <string name="passenger_title_done">完成</string>
+    <string name="passenger_adult_more">成人</string>
+    <string name="passenger_child_more">儿童</string>
+    <string name="passenger_infant_more">婴儿</string>
+    <string name="error_max">每次预订乘客人数最多9位</string>
+    <string name="error_min">最少一位乘客</string>
+    <string name="error_infant_morethan_adult">婴儿乘客不能超过成人乘客</string>
+    <string name="error_max_passenger_booking">每次预订乘客人数最多9位</string>
+    <string name="error_max_passenger_adult">每次预订成人乘客人数最多9位</string>
+    <string name="error_max_passenger_child">每次预订儿童乘客人数最多9位</string>
+    <string name="error_max_passenger_infant">每次预订婴儿乘客人数最多4位</string>
+
+    <!--meals-->
+    <string name="meal_dragdrop">拖动与拖放以添加项目</string>
+    <!--XX--><string name="inflight_meal">In Flight Meals</string>
+
+    <!--checkout-->
+    <string name="checkout_dpt_flight">离境航班</string>
+    <string name="checkout_subtotal">小计</string>
+    <string name="checkout_addon_fee">加载项及费用</string>
+    <string name="check_out_total">总数</string>
+
+    <!--Travellers info-->
+    <string name="addons_name_notice">乘客姓名(全拼)必须与以罗马字母（A-Z）列写并与政府证件ID吻合。预订之后如需更改姓名都需要重新购买机票。</string>
+    <string name="addons_traveller1">乘客 1</string>
+    <string name="addons_im_flying">我是该名乘客</string>
+    <string name="info_traveller2">旅行者 2</string>
+    <string name="info_travel_with">同行伙伴</string>
+    <string name="info_select_one">选择一个</string>
+    <string name="info_gender_title">性别</string>
+    <string name="info_salutation_title">称呼</string>
+    <string name="info_given_name">名</string>
+    <string name="info_family_name">姓</string>
+    <string name="info_date_birth">出生日期</string>
+    <string name="info_select_birth">选择出生日期</string>
+    <string name="info_nationality">国籍</string>
+    <string name="info_contact_person">联系人</string>
+
+    <!--Checkout-->
+    <string name="checkout_air_fare">机票</string>
+    <string name="checkout_payment_due">应付金额</string>
+
+    <!--credit card-->
+    <string name="hint_month">月</string>
+    <string name="hint_year">年</string>
+    <string name="cc_issuing_bank">通过银行发行的信用卡/借记卡:</string>
+
+    <!--Payment-->
+    <string name="payment_secure_payment">安全支付</string>
+    <string name="payment_msos_code">MSOS代码</string>
+
+    <!--Payment due-->
+    <string name="available_big_point">可用的BIG积分/可用的BIG Points</string>
+    <string name="total_point_due">点的数目尚未支付</string>
+    <string name="point_to_use">使用BIG积分</string>
+    <string name="payment_due">应付金额</string>
+
+    <!--Flight itinenary-->
+    <string name="itinenary_departure">离境航班</string>
+    <string name="itinenary_return">回程航班</string>
+    <string name="itinenary_passenger">乘客</string>
+
+    <!--Flight list-->
+    <string name="flight_list_daparture">出发地</string>
+    <string name="flight_list_no_flight">没有班机飞行</string>
+
+    <!--Flight search-->
+    <string name="flight_search_select">选择一个</string>
+    <string name="flight_search_destination">目的地</string>
+    <string name="flight_search_depart_date">出发日期</string>
+    <string name="flight_select_depart_date">选择日期</string>
+    <string name="flight_search_return_date">回程日期</string>
+    <string name="flight_select_return_date">选择日期</string>
+    <string name="flight_search_passenger">乘客</string>
+    <string name="flight_search_adult">1成人</string>
+    <string name="flight_search_reset">重置</string>
+    <string name="flight_search_promo_message">从我们促销列表中选择一条路线。如果你想选择其他目的地请按\"重置\"按钮。</string>
+
+    <!--Error Message-->
+    <string name="email_empty">请输入电子邮件</string>
+    <string name="email_invalid">请输入一个有效的电邮地址格式</string>
+
+    <string name="password_empty">请输入密码</string>
+    <string name="password_rule">必须至少有 8 至 16 个字符</string>
+
+    <!--Payment Failed-->
+    <string name="failed_msg_sorry">我们很抱歉，</string>
+    <string name="failed_msg_transaction">您的交易是不成功的。</string>
+    <string name="failed_msg_tryagain">请再试一次</string>
+    <!--XX--><string name="failed_msg_button">TRY AGAIN</string>
+    <string name="failed_msg_cancel">取消航班</string>
+
+    <!--HOMEPAGE-->
+    <string name="depart_hint">启程</string>
+
+    <!--Homepage-->
+    <string name="home_depart_hint">启程</string>
+    <!--NO NEED--><string name="home_final_call">Final Call</string>
+    <!--NO NEED--><string name="home_fix_grid">Fixed Grid</string>
+    <!--NO NEED--><string name="home_schedule_extension">Scheduled Extension</string>
+    <string name="home_now">现在</string>
+    <string name="home_to">至</string>
+    <string name="redeem_caps">兑换</string>
+
+    <!--RE-ARRANGED-->
+
+    <!--Base-->
+    <string name="base_loading">加载</string>
+    <string name="base_loading_ellipsis">加载&#8230;</string>
+    <string name="base_please_wait">请稍候&#8230;</string>
+    <string name="base_update">您确定要更新吗?</string>
+    <string name="base_confirm">确认!</string>
+    <string name="base_cancel">取消!</string>
+    <string name="base_connection_server">无法连接服务器</string>
+    <string name="base_no_internet">没有网络连接</string>
+
+    <!--MainController-->
+    <!--XX--><string name="main_session_expired">Session expired</string>
+    <string name="main_error">错误！</string>
+    <string name="main_invalid_user">用户名或密码无效</string>
+    <string name="main_sorry">Sorry!</string>
+    <string name="main_invalid_card">无效的信用卡号码</string>
+
+    <!--Addons-->
+    <string name="addons_baggage">自动分配</string>
+    <string name="addons_seat_selection">座位选择</string>
+    <string name="addons_travel_insurance">旅游保险</string>
+    <!--NOT USE--><string name="addons_special_assistance">Special Assistance</string>
+    <string name="addons_points">积分</string>
+    <string name="addons_auto_assign">自动分配</string>
+    <string name="addons_meal">机餐</string>
+    <string name="addons_none">无</string>
+    <string name="addons_not_included">不包括</string>
+    <string name="addons_included">包括</string>
+    <string name="addons_selected">选择</string>
+    <string name="addons_kg">公斤</string>
+    <string name="addons_alert">警告</string>
+    <string name="addons_message1">您可免费享有飞机餐点，请选择出发航班的机餐</string>
+    <string name="addons_message2">您可免费享有飞机餐点，请选择回返航班的机餐。</string>
+    <string name="addons_message3">您可免费享有行李托运，请选择出发行李托运。</string>
+    <string name="addons_message4">您可免费享有行李托运，请选择回返行李托运。</string>
+    <string name="addons_message5">您可免费享有机位选择，请选择出发航班的机位。</string>
+    <string name="addons_message6">您可免费享有机位选择，请选择回返航班的机位。</string>
+
+    <!--Insurance-->
+    <string name="insurance_not_available">保险不供这次飞行</string>
+    <string name="insurance_add">加</string>
+    <string name="insurance_added">添加</string>
+    <string name="insurance_text">是，我想为所有符合资格人士购买旅游保险。</string>
+    <string name="insurance_title">亚航旅行保险</string>
+    <string name="insurance_text2">
+        <![CDATA[
+        我确认我已阅读、理解并同意投保单上的<a href="http://www.airasiainsure.com/my/ms/da/english.html" style="color: #e4170e;">声明与授权</a>，且接受保单的 <a href="https://www.tuneprotect.com/airasia/en/home/" style="color: #FF0000;">条款与条件</a>。 本人接受一旦保单成立，即不可取消也无法退款。我了解，如果我不想购买亚航旅游保障，我可以取消勾选将它从我的行程中删除。我了解，如果我更改我的航班行程，该旅游保障将自动过期，我可以在线购买另一个新的保障。
+        ]]>
+    </string>
+    <string name="insurance_text3">不需要, 谢谢!我希望在没有旅游保险的情况下继续。</string>
+    <string name="insurance_text4">请注意： AirAsia 旅游保险将由 Tune Insurance Malaysia Berhad承保。</string>
+    <string name="insurance_text5">
+        <![CDATA[
+        请勾选本选项框，确认您完全理解和接受亚航航运<a href="http://www.airasia.com/ot/en/about-us/terms-and-conditions.page" style="color: #e4170e;">条款和条件</a>以及<a href="http://www.airasiabig.com/my/en/assets/tnc/tnc_airasia-flight-redeem-bigpoints.pdf" style="color: #e4170e;">航费规则</a>以继续。本次预订不能取消，也不能退款。
+        ]]>
+    </string>
+    <string name="insurance_text7">
+        <![CDATA[
+        免责声明： 亚航在根据合理判断之后，如果认为您的航费支付属于欺诈行为，或您的座位预订属于欺诈行为或不合法，或通过未经我们授权的人士预订，可能会拒绝为您或您的行李提供航运服务。
+        ]]>
+    </string>
+    <string name="insurance_text6">
+        <![CDATA[
+        如需特别帮助，请在预订完成后通过 <a href="http://www.airasia.com/my/en/live-chat.page" style="color: #e4170e;">live chat</a>联系我们(需早于起飞前48小时)。
+        ]]>
+    </string>
+    <string name="insurance_alert">已添加</string>
+    <string name="insurance_textA">请确认你已同意与条款及条件</string>
+    <string name="insurance_textB">Please choose</string>
+
+    <string name="text_message">添加项目达顶。请删除您之前的选择以更改</string>
+    <string name="text_message2">不允许低于下限积分</string>
+    <string name="fail_message">无法加载</string>
+    <string name="message2">不允许低于下限积分</string>
+    <string name="message3">不允许超过上限积分</string>
+
+    <string name="passanger_x">x  乘客</string>
+    <string name="thanks">谢谢</string>
+    <string name="need_payment">需要付款</string>
+    <string name="pending_payment">待付款</string>
+    <string name="success_payment">确认</string>
+    <string name="email_message">如果您已成功付款但在2小时后仍未收到预订确认，请您放心因为您的预订将在48小时内由亚航人员核实，然后将会发送确认状态给您。如果您的付款没有被扣除，请前往亚航网站的“管理我的预订”，以支付未付款项。</string>
+    <string name="email_message2">包含付款摘要的确认电子邮件已发送至&#160;</string>
+
+    <string name="card_info">信用卡信息</string>
+    <string name="payment_title">Payment Failed</string>
+    <string name="message_progress">付款进行中。请稍候。。</string>
+
+    <string name="guest">乘客</string>
+    <string name="adult">成人</string>
+    <string name="salutation_text">必须输入称呼</string>
+    <string name="family_name_required">必须输入姓氏</string>
+    <string name="nationality_required">必须输入国籍</string>
+    <string name="given_name_required">必须输入名字</string>
+    <string name="dob_required">必须输入出生日期</string>
+    <string name="travelling_required">一起旅行需要</string>
+    <string name="gender_required">必须输入性别</string>
+
+    <string name="tnc_text">请确认你已同意与条款及条件</string>
+    <string name="passenger_text">乘客</string>
+    <string name="adult_text">(成人)</string>
+    <string name="child_text">(儿童)</string>
+    <string name="infant_text">(婴儿)</string>
+
+    <string name="popup_text">请选择您的航班。</string>
+    <string name="fixed">固定</string>
+    <string name="regular">普通</string>
+    <string name="promo">促销</string>
+    <!--NO NEED--><string name="premium_flex">Premium Flex</string>
+    <string name="premium_flatbed">豪华平躺座椅</string>
+    <string name="fixed_c">固定</string>
+    <string name="regular_c">普通</string>
+    <string name="promo_c">促销</string>
+    <!--NO NEED--><string name="premium_flex_c">PREMIUM FLEX</string>
+    <string name="premium_flatbed_c">豪华平躺座椅</string>
+
+    <string name="content">是否确实要取消此预订？</string>
+    <string name="no">不是</string>
+    <string name="yes">是</string>
+    <string name="message_alert">电子邮件无效/错误</string>
+    <string name="alert_message2">资料不全。请填写以下内容</string>
+    <string name="error_title">年龄不正确</string>
+    <string name="error_message1">成人必须满12岁以上。</string>
+    <string name="error_message2">儿童年龄必须在2岁到11岁之间</string>
+    <string name="error_message3">婴儿年龄必须低于2岁</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight_availability">抱歉，没有可用的航班。请选择另一个日期或站，再试一次。</string>
+    <string name="alert_text1">选择您的出发地机场</string>
+    <string name="select_date">选择日期</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_success">成功!</string>
+
+    <!--Change Password-->
+    <string name="password_mismatch">密码不吻合</string>
+    <string name="password_length">必须至少有 8 至 16 个字符</string>
+    <string name="password_changed">密码已更改！</string>
+    <string name="error_message">密码必须包含大写字符、 数字和符号</string>
+
+    <!--Picker-->
+    <!--NOT USE--><string name="member_login_title">Member Login</string>
+    <!--XX--><string name="picker_message1">Selected date must be between</string>
+    <string name="picker_and">和</string>
+    <string name="picker_departure_station">出发站</string>
+    <string name="picker_arrival_station">Arrival Station</string>
+    <!--NOT USE--><string name="picker_preferred">Select preferred language</string>
+    <!--NOT USE--><string name="picker_enter_keyword">Enter keyword</string>
+    <string name="picker_select_gender">选择性别</string>
+    <string name="picker_select_departure">选择出发站</string>
+    <string name="picker_select_arrival">选择到达站</string>
+    <string name="select_country_title">选择国家</string>
+
+    <!--Option-->
+    <string name="please_select_country">请选择国家</string>
+    <string name="term_title">使用规则</string>
+    <string name="qr_title">我的BIG QR码</string>
+
+    <!--Edit-->
+    <string name="edit_utils">请选择国家</string>
+    <string name="edit_success">谢谢！更新成功</string>
+    <!--NOT USE--><string name="error_not_save">Image not saved</string>
+
+    <!--Main-->
+    <!--NOT USE--><string name="main_connection_body">Please connect to working Internet connection</string>
+    <!--NOT USE--><string name="main_toast">New Message:</string>
+
+    <!--Registration-->
+    <string name="register_success_message">谢谢！请检查您的电子邮件来完成您的注册</string>
+    <string name="register_error">错误</string>
+    <string name="register_password_invalid">无效的密码。</string>
+    <string name="register_password_length">必须至少有 8 至 16 个字符</string>
+
+    <!--Splash Screen-->
+    <!--NOT USE--><string name="updateTitle">App Update</string>
+    <!--NOT USE--><string name="updateBody">New version available at PlayStore</string>
+
+    <!--Token-->
+    <string name="token_connection_error">连接错误</string>
+    <string name="token_retry">重试</string>
+
+    <!--Adapter-->
+    <string name="adapter_seat_left">%1$s 仅剩座位!</string>
+    <string name="adapter_salutation_required">必须输入称呼</string>
+    <string name="adapter_nationality_required">必须输入国籍</string>
+    <string name="adapter_family_name_required">必须输入姓氏</string>
+    <string name="adapter_given_name_required">必须输入名字</string>
+    <string name="adapter_dob_required">必须输入出生日期</string>
+    <string name="adapter_travelling_required">一起旅行需要</string>
+    <string name="adapter_gender_required">必须输入性别</string>
+    <string name="adapter_seat_left1">%1$s 仅剩座位</string>
+    <string name="adapter_seat_left2">%1$s 仅剩座位</string>
+
+    <!--Error Message-->
+    <string name="error1">Contact Person Phone is required</string>
+    <string name="error2">积分不足</string>
+    <string name="error3">您的浏览时间已失效。请重新登录。</string>
+    <string name="error4">验证错误</string>
+    <string name="error5">Country Code is required</string>
+
+    <!--action bar-->
+    <string name="action_pay">付款</string>
+    <string name="action_new_flight">新的飞行</string>
+
+    <!--Password expired-->
+    <!--NOT USE--><string name="hint_enter_current_password">Enter current password</string>
+    <!--NOT USE--><string name="hint_enter_new_password">Enter new password</string>
+    <!--NOT USE--><string name="hint_enter_confirm_password">Enter Confirm Password</string>
+
+    <!--add profile image-->
+    <string name="change_photo">更改照片</string>
+    <string name="take_photo">拍张照片</string>
+    <string name="choose_photo">从照片中选择</string>
+    <string name="remove_photo">删除图像</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="addon_star">您的航班免费加载项</string>
+    <string name="baggage_meal_not">Not available for this flight</string>
+    <string name="done">完成</string>
+    <!--X--><string name="aab_big_prepaid">AirAsia BIG Prepaid</string>
+    <string name="depart">启程</string>
+    <string name="returned">往返</string>
+    <string name="booking_number">预订数量:</string>
+    <string name="point_redeem">兑换总积分:</string>
+    <string name="total_paid">付款总额:</string>
+    <string name="transaction_number">交易号:</string>
+    <string name="book_no">预订数量</string>
+    <string name="w_update">更新</string>
+
+    <!--Force update-->
+    <string name="fu_new_version">新版本上架</string>
+    <string name="fu_desc">更新的版本已可供下载！ 请前往Google Play商店更新应用程式。</string>
+
+    <string name="select">选择</string>
+    <string name="your_language">您的语言</string>
+    <string name="baggage_kg">20公斤行李</string>
+    <string name="hot_seat">免费Hot Seats选择</string>
+    <string name="comp_meal">1 免费餐</string>
+    <string name="fare_differ">2 次更改 日期/时间，航班出发 2 小时之前更改航班只需支付航费差额</string>
+    <string name="lounge">可享用贵宾休息室(仅限从KLIA2出发航班)</string>
+    <string name="kg_baggage">40公斤行李</string>
+    <string name="any_differ">多次更改 日期/时间，航班出发 2 小时之前更改航班只需支付票价差额。</string>
+    <string name="lounge2">平躺座位 + 可享用贵宾休息室（仅限从KLIA2出发航班）</string>
+    <string name="insurance_desc">下列乘客符合申请旅行险的资格</string>
+    <string name="shaker">摇一个随机的假日</string>
+    <string name="no_promo">抱歉！ 您附近没有促销路线，请选择其他位置</string>
+    <string name="confirm_sym">确认 &gt;</string>
+    <string name="process_fee">手续费 :&#160;</string>
+    <string name="payment_desc">通过信用卡或借记卡在线付费时，会员将被征收每一程的手续费。</string>
+    <string name="payment_amount_due">应付总金额 :&#160;</string>
+    <string name="payment_card_type">信用卡的种类</string>
+    <string name="payment_card_number">卡号</string>
+    <string name="payment_expired_date">过期日期</string>
+    <string name="card_holder">持卡人姓名</string>
+    <string name="cvv">CVV / CVC 号码</string>
+    <string name="issuing_bank">通过银行发行的信用卡/借记卡:</string>
+    <string name="card_issuer">银行卡名字:</string>
+    <!--NOT USE--><string name="test_issuer_card">Testing Card Issuer - (Hardcoded)</string>
+    <string name="country_issue">卡发出国家:</string>
+    <!--NOT USE--><string name="test_country_issue">Testing Card Issuer Country - (Hardcoded)</string>
+    <string name="billing_address">帐单地址</string>
+    <string name="bill_add1">帐单地址 1</string>
+    <string name="bill_add2">帐单地址 2</string>
+    <string name="town_city">市镇 / 城市</string>
+    <string name="process">正在处理&#8230;</string>
+    <string name="qr">我的BIG QR码</string>
+    <string name="recent_search">最近搜索</string>
+    <string name="your_country">您的国家</string>
+    <string name="coming_soon">即将推出</string>
+    <string name="TBD_user_profile">用户资料</string>
+    <string name="addons_meals">机餐</string>
+    <string name="alert_text2">选择您的目的地机场</string>
+    <string name="alert_text3">选择您的出发日期。</string>
+    <string name="alert_text4">选择你返回的日期。</string>
+    <string name="base_connection_error">连接错误</string>
+    <string name="title_mr">先生</string>
+    <string name="title_ms">小姐</string>
+    <string name="bigfun_music">Music</string>
+    <string name="bigfun_setting_title">Setting</string>
+    <string name="bigfun_sound">Sound</string>
+    <string name="btn_play">Play</string>
+    <string name="options_about_follow">关注我们以获取最新的消息</string>
+    <string name="process_payment">处理付款中</string>
+    <string name="register_password_hint">密码必须是8&#8211;15个字母数字及具备以下条件：数字（0&#8211;9），小写字母（a&#8211;z），大写字母（A&#8211;Z)</string>
+    <string name="pts_with_space">&#160;积分</string>
+    <string name="hr">时</string>
+    <string name="min">分</string>
+
+    <string name="notification_title">信息通知</string>
+    <string name="notification_delete">信息已被删除</string>
+    <string name="no_notification">无最新信息</string>
+    <string name="message">信息</string>
+    <string name="messages">信息</string>
+
+</resources>

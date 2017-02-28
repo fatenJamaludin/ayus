@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/passengerListHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@color/light_yellow"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_red_info" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/addons_name_notice" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal"
+                android:paddingRight="10dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/txtMainPassenger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/addons_traveller1"
+                    android:textColor="@color/default_theme_colour"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView404"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/addons_im_flying"
+                    android:textColor="@color/black" />
+
+                <Switch
+                    android:id="@+id/imFlyingSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:layout_gravity="right"
+                    android:longClickable="false"
+                    android:switchMinWidth="40dp"
+                    android:textOff="o"
+                    android:textOn="o"
+                    android:switchTextAppearance="@style/switch_on"
+                    android:thumb="@drawable/custom_selector"
+                    android:track="@drawable/custom_track" />
+
+                <!-- <com.kyleduo.switchbutton.SwitchButton
+                     android:id="@+id/imFlyingSwitch"
+                     android:layout_width="wrap_content"
+                     app:kswTextOn=" "
+                     app:kswTextOff=" "
+                     app:kswThumbWidth="30dp"
+                     app:kswThumbHeight="30dp"
+                     app:kswThumbMargin="-15dp"
+                     app:kswThumbColor="@color/bright_red"
+                     app:kswBackColor="#FF7373"
+                     app:kswBackRadius="27dp"
+                     android:layout_height="wrap_content"
+                     android:visibility="visible"/>-->
+
+                <!--<Switch
+                    android:id="@+id/imFlyingSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="5dp"
+                    android:checked="true" />-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_login_bottom_border"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/imgUserDP"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/no_profile_image"
+                    app:civ_border_color="@color/grey"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#000"
+                    app:civ_shadow_radius="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:id="@+id/txtPassenger1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr Johny."
+                    android:textSize="17dp" />
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:id="@+id/passenger1_fullName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Mts joh doe"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="13dp" />
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:id="@+id/passenger1_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23 may 2010"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="13dp" />
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:id="@+id/passenger1_nationality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malaysian"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<com.kyleduo.switchbutton.SwitchButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:kswThumbDrawable="@drawable/circle">
+
+    </com.kyleduo.switchbutton.SwitchButton>-->
+
+
+</LinearLayout>

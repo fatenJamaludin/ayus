@@ -1,0 +1,36 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item
+        android:drawable="@drawable/bf_loading10"
+        android:duration="900" />
+    <item
+        android:drawable="@drawable/bf_loading9"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading8"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading7"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading6"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading5"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading4"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading3"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading2"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading1"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/bf_loading10"
+        android:duration="1000" />
+</animation-list>

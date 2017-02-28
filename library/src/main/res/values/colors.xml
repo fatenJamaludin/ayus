@@ -1,0 +1,15 @@
+<!-- Copyright 2012 Square, Inc. -->
+<resources>
+  <color name="calendar_active_month_bg">#ffffff</color>
+  <color name="calendar_bg">#ffffffff</color>
+  <color name="calendar_divider">#ffffff</color>
+  <color name="calendar_inactive_month_bg">#ffffff</color>
+  <color name="calendar_selected_day_bg">#e4170e</color>
+  <color name="calendar_highlighted_day_bg">#ccffcc</color>
+  <color name="calendar_selected_range_bg">#F6B9B6</color>
+  <color name="calendar_text_inactive">#EEEEEE</color>
+  <color name="calendar_text_active">#b3b3b3</color>
+  <color name="calendar_text_selected">#ffffff</color>
+  <color name="calendar_text_unselectable">#7f778088</color>
+  <color name="calendar_text_highlighted">#ff778088</color>
+</resources>

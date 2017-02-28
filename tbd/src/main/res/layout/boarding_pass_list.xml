@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:padding="1dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.04"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:background="@color/test1">
+
+           <!-- <com.commit451.inkpageindicator.InkPageIndicator
+                android:id="@+id/ink_pager_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:dotDiameter="8dp"
+                app:dotGap="8dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                app:animationDuration="200"
+                app:pageIndicatorColor="@color/actionBarColour_default_theme"
+                app:currentPageIndicatorColor="@color/black"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/> -->
+
+            <me.relex.circleindicator.CircleIndicator
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:id="@+id/indicator"
+                android:padding="5dp"/>
+
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@color/test1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:id="@+id/horizontalProgressBar"
+            android:visibility="gone"
+            android:indeterminate="true"
+            android:progress="1"/>
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.96">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff" >
+            </android.support.v4.view.ViewPager>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

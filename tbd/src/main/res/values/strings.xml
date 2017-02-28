@@ -1,0 +1,677 @@
+<resources>
+
+    <!--NO NEED--><string name="app_name">AirAsia BIG</string>
+    <string name="version">Version 1.1.6</string>
+
+    <!-- DropDown Value -->
+    <string-array name="gender">
+        <item>Male/Male</item>
+        <item>Female/Female</item>
+    </string-array>
+
+    <!--action bar-->
+    <string name="ab_cancel">Cancel</string>
+    <string name="ab_search">Search</string>
+    <string name="ab_logout">LOG OUT</string>
+    <string name="ab_plus">+</string>
+    <string name="ab_done_c">DONE</string>
+    <string name="ab_done">DONE</string>
+    <string name="ab_save_cptl">SAVE</string>
+    <string name="ab_continuev2">Continue</string>
+    <string name="ab_next">NEXT</string>
+    <string name="ab_login_c">LOG IN</string>
+    <string name="ab_edit">Edit</string>
+
+
+    <!--ONBOARDING-->
+    <string name="onboarding_skip">SKIP</string>
+    <string name="onboarding_continue">CONTINUE</string>
+
+    <!--Before Login-->
+    <string name="login_button">LOG IN</string>
+    <string name="signup_button">SIGN UP</string>
+
+    <!-- TITLE / HEADER -->
+    <string name="header_welcome_back">Welcome back</string>
+    <string name="header_user_profile">User Profile</string>
+    <string name="header_addons">Add-ons</string>
+    <string name="header_addons_capital">ADD ONS</string>
+    <string name="header_pick_seat">Pick a Seat</string>
+    <string name="header_checkout">Checkout</string>
+    <string name="header_payment">PAYMENT</string>
+    <string name="header_select_card">Select Card</string>
+    <string name="header_summary">Summary</string>
+    <string name="header_traveller_info">Traveller’s Info</string>
+    <string name="header_depart">Departure</string>
+    <string name="depart_flight">Depart Flight</string>
+    <string name="passenger_title_with_s">Passenger(s)</string>
+    <string name="header_return">Return</string>
+    <string name="return_flight">Return Flight</string>
+    <string name="notification">Notification</string>
+
+    <!--TITLE/HEADER TAB-->
+    <string name="TBD_home">Homepage</string>
+    <string name="TBD_user_profile">User Profile</string>
+    <string name="TBD_flight_search">Flight Search</string>
+    <!--NO NEED--><string name="TBD_big_fun">BIG Fun Trivia</string>
+
+    <!-- REGISTER -->
+    <string name="register_continue_button">Continue</string>
+    <string name="register_confirm_password">Confirm Password </string>
+    <string name="register_basic_information">BASIC INFORMATION</string>
+    <string name="register_country">Country</string>
+    <string name="register_state">State</string>
+    <string name="register_language">Language</string>
+    <string name="register_password_policy">Password Policy</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight">BOOK FLIGHT</string>
+    <string name="book_flight_one_way">ONE-WAY</string>
+    <string name="book_flight_return">ROUND TRIP</string>
+    <string name="book_flight_adult">Adult</string>
+
+    <!-- BOOKING FLIGHT - LIST FLIGHT -->
+    <!--NO NEED--><string name="book_flight_basic">BASIC</string>
+    <!--NO NEED--><string name="book_flight_premier">PREMIER</string>
+
+    <!-- General -->
+    <string name="general_continue">Continue</string>
+    <string name="general_success">Success!</string>
+    <string name="pts">pts</string>
+
+    <string name="home_exit">EXIT</string>
+    <string name="home_confirm_exit">Confirm exit?</string>
+    <string name="home_cancel">Cancel</string>
+    <string name="home_close">Close</string>
+    <string name="home_show">Show</string>
+    <string name="update">UPDATE</string>
+    <string name="title_activity_terms">Terms</string>
+
+    <!-- Forgot Password Module -->
+    <string name="forgotPasswordExpired">PASSWORD EXPIRED</string>
+    <string name="forgotPasswordCurrent">Current Password</string>
+    <string name="forgotPasswordNew">New Password</string>
+    <string name="forgotPasswordConfirm">Confirm Password</string>
+
+
+    <!-- General-->
+    <string name="date_ob">Date Of Birth</string>
+    <!--NO NEED--><string name="textview_placeholder_lbl">TextView</string>
+    <string name="stateListDialogTitle">Please select state</string>
+    <string name="failed_load">Failed to load</string>
+
+    <!-- TBD LOGIN PAGE -->
+    <string name="login_">Login</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <!--NO NEED--><string name="login_fb_button">Login via Facebook</string>
+    <!--NO NEED--><string name="login_example_email">example@mail.com</string>
+    <!--NO NEED--><string name="login_example_password">********</string>
+
+    <!-- TBD FORGOT PASSWORD -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <!--NO NEED--><string name="forgot_password_email">example@mail.com</string>
+    <!--NOT USE--><string name="title_activity_password_expired">PasswordExpiredActivity</string>
+    <string name="password_expire_text">Your password has expired and needs to be changed. The password must consist of at least 8 characters, must include one uppercase letter, one lowercase letter, one numeric digit and one symbol. Example: SkyPark+123</string>
+
+    <!-- General -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="btn_continue">Continue ></string>
+    <string name="fill_emtpy_field">Something went wrong. Please correct any errors indicated</string>
+    <string name="success">Success!</string>
+
+    <!-- Reset Password -->
+    <string name="reset_new_password">New Password</string>
+
+    <!-- TBD Profile -->
+    <string name="profile_my_profile">My Profile</string>
+    <string name="tbd_my_big_point">My BIG Points</string>
+    <string name="tbd_my_credit_card">My Credit Card</string>
+    <!--NO NEED--><string name="facebook">Facebook</string>
+    <string name="options">Options</string>
+
+    <!--Options-->
+    <string name="options_app_settings">App Settings</string>
+    <string name="options_information">Information</string>
+    <string name="options_about">About</string>
+    <string name="btn_nxt">NEXT</string>
+    <string name="options_about_follow">Follow us to get latest updates</string>
+    <string name="options_terms">BIG Loyalty Membership</string>
+    <string name="options_terms_conditions">Terms and Conditions</string>
+    <string name="options_privacy">TBD Privacy Policy</string>
+    <string name="options_reset_password">Reset Password</string>
+    <string name="option_reset_password_text">To reset your password, enter the email address you use to sign in to AirAsia BIG.</string>
+    <string name="options_change_language">Change Language</string>
+    <string name="options_logout">Logout</string>
+    <string name="option_select_language">SELECT LANGUAGE</string>
+
+    <!--Credit card-->
+    <string name="tbd_big_point_no_credit_card">No Credit Card</string>
+    <string name="credit_card_number">Card Number</string>
+    <string name="credit_card_expiry_date">Expiry Date</string>
+    <string name="credit_card_cvv">CVV</string>
+    <string name="credit_card_country">Country</string>
+
+    <!--AAB View My Profile -->
+    <string name="profile_personal_details">Personal Details</string>
+    <string name="profile_salutation">Salutation</string>
+    <string name="profile_given_name">Given Name</string>
+    <string name="profile_family_name">Family Name</string>
+    <string name="profile_dob">Date of Birth</string>
+    <string name="profile_nationality">Nationality</string>
+    <string name="profile_mobile">Mobile No</string>
+    <string name="profile_passport">Passport No</string>
+    <string name="profile_address">Address</string>
+    <string name="profile_street1">Street 1</string>
+    <string name="profile_street2">Street 2</string>
+    <string name="profile_city">City</string>
+    <string name="profile_post_code">Postcode</string>
+    <string name="profile_state">State</string>
+    <string name="profile_country">Country</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_emergency">Emergency Contact</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_parent_detail">Parent Details</string>
+    <string name="profile_document_no">Document Number</string>
+    <string name="profile_edit">EDIT</string>
+    <string name="profile_bigshot_id">BIG Member ID :</string>
+
+    <!-- TBD Search Flight -->
+    <string name="search_flight_title">Select your origin</string>
+    <string name="book_flight_departure_title">Departure</string>
+    <string name="book_flight_destination_title">Destination</string>
+    <string name="book_flight_departure_dates">Departure Date</string>
+    <string name="book_flight_select_departure_date">Select departure date</string>
+    <string name="book_flight_return_date">Return Date</string>
+    <string name="book_flight_select_return_date">Select return date</string>
+
+    <!-- TBD Holiday Shaker -->
+    <string name="holiday_shaker_reedem">REDEEM</string>
+
+    <!-- TBD Register -->
+    <string name="register_title">Sign up</string>
+    <string name="register_continue">Register ></string>
+    <string name="register_given_name">Given Name</string>
+    <string name="register_family_name">Family Name</string>
+    <string name="register_nick_name">Nickname</string>
+    <string name="register_nationality">Nationality</string>
+    <string name="register_mobile">Mobile</string>
+    <string name="register_personal_detail">PERSONAL DETAIL</string>
+    <string name="register_contact_detail">CONTACT DETAILS</string>
+    <string name="register_postcode">Postcode</string>
+    <string name="register_select_state">Please select state</string>
+    <string name="register_select_language">Please select language</string>
+    <string name="register_select_country">Please select country</string>
+    <string name="register_select_nationality">Please select nationality</string>
+    <string name="register_check_subscribe">Subscribe to AirAsia Newsletter.</string>
+    <string name="register_newsletter_language_hint">Please select language</string>
+    <string name="register_general_loading">Loading &#8230;</string>
+    <string name="register_password_style">Password must be 8&#8211;15 alphanumeric characters with these reuirement: number (0&#8211;9), lowercase letter (a&#8211;z),uppercase letter (A&#8211;Z)</string>
+    <string name="register_city">Town/City</string>
+    <string name="register_newsletter_language">Newsletter Language</string>
+
+    <!--NO NEED--><string name="register_confirm_information">
+    <![CDATA[
+        I confirm that the above information provided by me is true and accurate and understand that the AirAsia BIG Loyalty Programme is operated by Think BIG Digital Sdn Bhd. I have read and hereby agree to the <a href="http://www.airasiabig.com/my/en/assets/pdf/tnc-big-loyalty_en-GB.pdf" style="color: #FF0000;">terms and conditions of the AirAsia BIG Loyalty Membership</a> operated by Think BIG Digital Sdn Bhd, which shall be binding on me.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_acknowledge_member">
+    <![CDATA[
+    I further acknowledge that in order to proceed with the membership application, registration and/or subscription and the provision of services, benefits and privileges related to the AirAsia BIG Loyalty Programme and the AirAsia membership, the sharing, transfer, retrieval, updating and processing of my personal information and data as well as creation of member profile and user accounts may occur between Think BIG Digital Sdn Bhd, AirAsia Berhad, Tune Money Sdn Bhd and each of their respective group companies, related corporations, affiliates, subsidiaries, associates (as further stated in Think BIG Digital Sdn Bhd’s and AirAsia Berhad’s Privacy Policies) and I confirm that I have read <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a> and consent to the processing of my personal data for purposes of the same. I further agree that by browsing and using the website(s) and services and/or products contained herein, I agree to <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">AirAsia Berhad’s Terms of Use</a> and <a href="http://www.airasiabig.com/my/en/assets/pdf/term-of-use.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Terms of Use</a>.
+    ]]>
+    </string>
+
+    <!--NO NEED--><string name="register_parent_confirm">
+    <![CDATA[
+    In making this AirAsia BIG Loyalty membership and AirAsia membership, I hereby declare that (i) I, the applicant, am at least 18 years of age; (ii) I am the parent and/or guardian of the Minor; (iii) I am applying for the BIG Loyalty Membership and AirAsia Membership for and on behalf of the Minor (iv) I consent to the sharing and processing of the Minor’s personal data and information in accordance with <a href="http://www.airasiabig.com/my/en/assets/pdf/privacypolicy.pdf" style="color: #FF0000;">Think BIG Digital Sdn Bhd’s Privacy Policy</a> and <a href="http://www.airasia.com/my/en/about-us/privacy-policy.page" style="color: #FF0000;">AirAsia Berhad’s Privacy Policy</a>.
+    ]]>
+    </string>
+
+    <!-- Forgot Password -->
+    <string name="reset_password_success_send">Forgot password link has been sent to your registered email</string>
+    <string name="update_password_success_send">Password successfully updated!</string>
+
+    <!-- TBD Facebook ID -->
+    <!--NO NEED--><string name="facebook_app_id">1143272665731321</string>
+    <!--NO NEED--><string name="bugsnag_app_id">95c13dc77fbd7a75f4e3a0ee6516c435</string>
+    <!--NO NEED--><string name="google_map_app_id">AIzaSyB0QRtXyjzYCW0PhkHnAkVr_pifTVuphKg</string>
+    <!--NO NEED--><string name="fabric_app_id">e484fdefc2bb0b41cffd0448b1a9f206323c0687</string>
+
+
+    <!--Big Point-->
+    <string name="big_id">BIG Member ID</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="tbd_points_expiry">Points Expiry</string>
+    <string name="tbd_big_point_no_transaction">No Transaction History</string>
+    <string name="big_point_total_points">Total Points</string>
+    <string name="big_point_expiring">Points expiring (in 6 months)</string>
+    <string name="big_point_expiring_in">Points Expiry</string>
+    <string name="points_as_of">points as of</string>
+
+    <!-- SELECTION FRAGMENT TITLE -->
+    <string name="select_country">Select country</string>
+    <string name="select_language">Select language</string>
+    <string name="select_state">Select state</string>
+    <string name="select_nationality">Select nationality</string>
+    <string name="select_title">Select title</string>
+    <string name="register_password_hint">Password must be 8&#8211;15 alphanumeric characters with these reuirement: number (0&#8211;9), lowercase letter (a&#8211;z),uppercase letter (A&#8211;Z)</string>
+    <string name="tbd_my_booking">My Booking</string>
+    <string name="profile_address_title">ADDRESS</string>
+    <string name="select_departure_date">Select departure date</string>
+    <string name="select_return_date">Select return date</string>
+
+    <!--Custom_passenger_picker-->
+    <string name="adult_age"> &gt; 12 years</string>
+    <string name="child_age">2 &#8211; 12 years</string>
+    <string name="infant_age">&lt; 2 years</string>
+    <string name="passenger_adult"> Adult</string>
+    <string name="passenger_child"> Child</string>
+    <string name="passenger_infant"> Infant</string>
+    <string name="passenger_title">Passengers</string>
+    <string name="passenger_title_done">DONE</string>
+    <string name="passenger_adult_more"> Adults </string>
+    <string name="passenger_child_more"> Children </string>
+    <string name="passenger_infant_more"> Infants </string>
+    <string name="error_max"> Maximum passengers per booking is 9 </string>
+    <string name="error_min">Minimum is 1</string>
+    <string name="error_infant_morethan_adult">Infant cannot be more than adult</string>
+    <string name="error_max_passenger_booking"> Maximum passengers per booking is 9 </string>
+    <string name="error_max_passenger_adult"> Maximum adults per booking is 9 </string>
+    <string name="error_max_passenger_child"> Maximum children per booking is 9 </string>
+    <string name="error_max_passenger_infant"> Maximum infants per booking is 4 </string>
+
+    <!--meals-->
+    <string name="meal_dragdrop">Drag &amp; drop to add</string>
+    <string name="inflight_meal">In Flight Meals</string>
+
+    <!--checkout-->
+    <!--<string name="checkout_airfare">Air Fare</string>-->
+    <string name="checkout_dpt_flight">Departure Flight</string>
+    <string name="checkout_subtotal">Subtotal</string>
+    <string name="checkout_addon_fee">Add-ons &amp; Fees</string>
+    <string name="check_out_total">Total</string>
+
+    <!--Travellers info-->
+    <string name="addons_name_notice">Traveller name must match government-issued photo ID in Roman alphabet (A-Z). Any name changes after booking will require the purchase of a new flight.</string>
+    <string name="addons_traveller1">Guest 1</string>
+    <string name="addons_im_flying">I\'m flying</string>
+    <string name="info_traveller2">Traveller 2</string>
+    <string name="info_travel_with">Travelling With</string>
+    <string name="info_select_one">Select one</string>
+    <string name="info_gender_title">Gender</string>
+    <string name="info_salutation_title">Salutation</string>
+    <string name="info_given_name">Given Name</string>
+    <string name="info_family_name">Family Name</string>
+    <string name="info_date_birth">Date of Birth</string>
+    <string name="info_select_birth">Select date of birth</string>
+    <string name="info_nationality">Nationality</string>
+    <string name="info_contact_person">Contact Person</string>
+
+    <!--Checkout-->
+    <string name="checkout_air_fare">Air Fare</string>
+    <string name="checkout_payment_due">Payment Due</string>
+
+    <!--credit card-->
+    <string name="hint_month">Month</string>
+    <string name="hint_year">Year</string>
+    <string name="cc_issuing_bank">Credit / Debit Card Issuing Bank:</string>
+
+
+    <!--Payment-->
+    <string name="payment_secure_payment">Secure Payment</string>
+    <string name="payment_msos_code">MSOS Code</string>
+
+    <!--Payment due-->
+    <string name="available_big_point">Available BIG Points</string>
+    <string name="total_point_due">Total Points Due</string>
+    <string name="point_to_use">Points to use</string>
+    <string name="payment_due">Payment due</string>
+
+    <!--Flight itinenary-->
+    <string name="itinenary_departure">Departure Flight</string>
+    <string name="itinenary_return">Return Flight</string>
+    <string name="itinenary_passenger">Passengers</string>
+
+    <!--Flight list-->
+    <string name="flight_list_daparture">Departure</string>
+    <string name="flight_list_no_flight">No Flight Available</string>
+
+    <!--Flight search-->
+    <string name="flight_search_select">Select one</string>
+    <string name="flight_search_destination">Destination</string>
+    <string name="flight_search_depart_date">Departure Date</string>
+    <string name="flight_select_depart_date">Select date</string>
+    <string name="flight_search_return_date">Return Date</string>
+    <string name="flight_select_return_date">Select date</string>
+    <string name="flight_search_passenger">Passengers</string>
+    <string name="flight_search_adult">1 Adult</string>
+    <string name="flight_search_reset">RESET</string>
+    <string name="flight_search_promo_message">You have selected a route from our promo list. If you wish to select for other destination please press the \"RESET\" button.</string>
+
+    <!--Error Message-->
+    <string name="email_empty">Please insert email</string>
+    <string name="email_invalid">Please enter a valid email format</string>
+    <string name="password_empty">Please insert password</string>
+    <string name="password_rule">Must be at least 8 and maximum 16 characters</string>
+
+    <!--Payment Failed-->
+    <string name="failed_msg_sorry">We\'re sorry,</string>
+    <string name="failed_msg_transaction">your transaction is unsuccessful.</string>
+    <string name="failed_msg_tryagain">Please try again</string>
+    <string name="failed_msg_button">TRY AGAIN</string>
+    <string name="failed_msg_cancel">CANCEL FLIGHT</string>
+
+
+    <!--HOMEPAGE-->
+    <string name="depart_hint">Departing from</string>
+
+    <!--Homepage-->
+    <string name="home_depart_hint">Departing From</string>
+    <!--NO NEED--><string name="home_final_call">Final Call</string>
+    <!--NO NEED--><string name="home_fix_grid">Fixed Grid</string>
+    <!--NO NEED--><string name="home_schedule_extension">Scheduled Extension</string>
+    <string name="home_now">Now </string>
+    <string name="home_to">to</string>
+    <string name="redeem_caps">REDEEM</string>
+
+    <!--Base-->
+    <string name="base_loading">Loading</string>
+    <string name="base_loading_ellipsis">Loading&#8230;</string>
+    <string name="base_please_wait">Please wait&#8230;</string>
+    <string name="base_update">Are you sure you want to update?</string>
+    <string name="base_confirm">Confirm!</string>
+    <string name="base_cancel">Cancel!</string>
+    <string name="base_connection_error">Connection Error</string>
+    <string name="base_connection_server">Unable to connect to the server</string>
+    <string name="base_no_internet">No Internet Connection</string>
+
+
+    <!--MainController-->
+    <string name="main_session_expired">Session expired</string>
+    <string name="main_error">Error!</string>
+    <string name="main_invalid_user">Invalid username or password</string>
+    <string name="main_sorry">Sorry!</string>
+    <string name="main_invalid_card">Invalid credit card number</string>
+
+    <!--Addons-->
+    <string name="addons_baggage">Baggage</string>
+    <string name="addons_meals">Meals</string>
+    <string name="addons_seat_selection">Seat Selection</string>
+    <string name="addons_travel_insurance">Travel Insurance</string>
+    <string name="addons_special_assistance">Special Assistance</string>
+    <string name="addons_points">pts</string>
+    <string name="addons_auto_assign">Auto Assign</string>
+    <string name="addons_meal">meal(s)</string>
+    <string name="addons_none">None</string>
+    <string name="addons_not_included">Not Included</string>
+    <string name="addons_included">Included</string>
+    <string name="addons_selected">Selected</string>
+    <string name="addons_kg">KG</string>
+    <string name="addons_alert">Alert</string>
+    <string name="addons_message1">You are entitled to complimentary meal(s) from us, please select departure meal</string>
+    <string name="addons_message2">You are entitled to complimentary meal(s) from us, please select return meal</string>
+    <string name="addons_message3">You are entitled to complimentary baggage from us, please select departure baggage</string>
+    <string name="addons_message4">You are entitled to complimentary baggage from us, please select return baggage</string>
+    <string name="addons_message5">You are entitled to complimentary seat(s) from us, please select departure seat</string>
+    <string name="addons_message6">You are entitled to complimentary seat(s) from us, please select return seat</string>
+
+    <!--Insurance-->
+    <string name="insurance_not_available">Insurance not available for this flight</string>
+    <string name="insurance_add">Add</string>
+    <string name="insurance_added">Added</string>
+    <string name="insurance_text">Yes, I want to purchase AirAsia Insure Travel Protection for all eligible persons.</string>
+    <string name="insurance_title">Travel Insurance by AirAsia</string>
+    <string name="insurance_text2">
+        <![CDATA[
+        I confirm that I have read, understood and agreed with the <a href="http://www.airasiainsure.com/my/ms/da/english.html" style="color: #e4170e;">Declarations and Authorisations</a> of the Insurance Application and accept the <a href="https://www.tuneprotect.com/airasia/en/home/" style="color: #FF0000;">Terms & Conditions</a> of the Policy. I accept that once the policy is issued, it is non-cancellable and is non-refundable. I understand that if I do not wish to buy AirAsia Travel Protection, I can uncheck to remove it from my itinerary. I understand that if I change my flight itinerary, the policy will expire automatically and I am able to purchase a new policy online.
+        ]]>
+    </string>
+    <string name="insurance_text3">No, thanks. I would like to proceed without AirAsia Travel Protection.</string>
+    <string name="insurance_text4">Note: AirAsia Travel Protection is underwritten by Tune Insurance Malaysia Berhad.</string>
+    <string name="insurance_text5">
+        <![CDATA[
+        Please check this box to confirm that you understand and accept AirAsia\'s <a href="http://www.airasia.com/ot/en/about-us/terms-and-conditions.page" style="color: #e4170e;">Terms and Conditions of Carriage</a> and <a href="http://www.airasiabig.com/my/en/assets/tnc/tnc_airasia-flight-redeem-bigpoints.pdf" style="color: #e4170e;">AirAsia BIG Redemption Terms and Conditions</a> to continue. The booking cannot be cancelled and payments made are not refundable.
+        ]]>
+    </string>
+    <string name="insurance_text7">
+        <![CDATA[
+        DISCLAIMER: AirAsia may refuse carriage of you or your baggage if, in the exercise of our reasonable discretion, we determine either that the payment of your fare is fraudulent or the booking of your seat has been done fraudulently or unlawfully or has been purchased from a person not authorized by us.
+        ]]>
+    </string>
+    <string name="insurance_text6">
+        <![CDATA[
+        For special assistance, kindly contact us via <a href="http://www.airasia.com/my/en/live-chat.page" style="color: #e4170e;">AirAsia Live Chat</a> after your booking and up to 48 hours before your flight.
+        ]]>
+    </string>
+    <string name="insurance_alert">Alert</string>
+    <string name="insurance_textA">Please confirm that you have agreed with the Terms &amp; Conditions</string>
+    <string name="insurance_textB">Please choose</string>
+
+    <string name="text_message">Maximum items added. Please remove your previous choice to change</string>
+    <string name="text_message2">Less than minimum points are not allowed.</string>
+    <string name="fail_message">Failed to load</string>
+    <string name="message2">Less than minimum points are not allowed</string>
+    <string name="message3">More than maximum points are not allowed</string>
+
+    <string name="passanger_x">x  Passenger</string>
+    <string name="thanks">Thank You</string>
+    <string name="need_payment">Need Payment</string>
+    <string name="pending_payment">Pending Payment</string>
+    <string name="success_payment">Confirmed</string>
+    <string name="email_message">If you have made a successful payment but did not receive any confirmation on booking status after 2 hours, rest assured that your booking will be verified by AirAsia personnel within 48 hours and confirmation will be sent to you. If no payment is deducted, please proceed to Manage My Booking at AirAsia website to make the outstanding payment.</string>
+    <string name="email_message2">A confirmation email with your payment summary has been sent to&#160;</string>
+
+    <string name="card_info">Card Information</string>
+    <string name="payment_title">Payment Failed</string>
+    <string name="process_payment">Process Payment</string>
+    <string name="message_progress">Payment in progress. Please wait&#8230;</string>
+
+
+    <string name="guest">Guest</string>
+    <string name="adult">Adult</string>
+    <string name="salutation_text">Salutation is required</string>
+    <string name="family_name_required">Family name is required</string>
+    <string name="nationality_required">Nationality is required</string>
+    <string name="given_name_required">Given name is required</string>
+    <string name="dob_required">Date of birth is required</string>
+    <string name="travelling_required">ลองอีกครั้ง</string>
+    <string name="gender_required">Gender is required</string>
+
+    <string name="tnc_text">Please confirm that you have agreed with the Terms &amp; Conditions</string>
+    <string name="passenger_text">Passenger</string>
+    <string name="adult_text">(Adult)</string>
+    <string name="child_text">(Child)</string>
+    <string name="infant_text">(Infant)</string>
+
+    <string name="popup_text">Please select your flight.</string>
+    <!--RECHECK--><string name="fixed">Fixed</string>
+    <!--RECHECK--><string name="regular">Regular</string>
+    <!--RECHECK--><string name="promo">Promo</string>
+    <!--RECHECK--><string name="premium_flex">Premium Flex</string>
+    <!--RECHECK--><string name="premium_flatbed">Premium Flatbed</string>
+    <!--NO NEED--><string name="fixed_c">FIXED</string>
+    <!--NO NEED--><string name="regular_c">REGULAR</string>
+    <!--NO NEED--><string name="promo_c">PROMO</string>
+    <!--NO NEED--><string name="premium_flex_c">PREMIUM FLEX</string>
+    <!--NO NEED--><string name="premium_flatbed_c">PREMIUM FLATBED</string>
+
+    <string name="content">Are you sure want to cancel this booking?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="message_alert">Invalid contact email</string>
+    <string name="alert_message2">Information is missing.Please fill in the blanks.</string>
+    <string name="error_title">Invalid age</string>
+    <string name="error_message1">Adult must be aged between 12 years and above</string>
+    <string name="error_message2">Children must be aged between 2 years and 11 years</string>
+    <string name="error_message3">Date of Birth of Infant must be &gt; 9 days and &lt; 2 years old from the first departure</string>
+
+    <!-- BOOKING FLIGHT - SEARCH FLIGHT -->
+    <string name="book_flight_availability">Sorry, no flights available. Please select another date or station and try again.</string>
+    <string name="alert_text1">Choose your departure airport</string>
+    <string name="alert_text2">Choose your destination airport</string>
+    <string name="alert_text3">Choose your departure date.</string>
+    <string name="alert_text4">Choose your return date.</string>
+    <string name="select_date">Select date</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_success">Success!</string>
+
+    <!--Change Password-->
+    <string name="password_mismatch">Password mismatch</string>
+    <string name="password_length">Must be at least 8 and maximum 16 characters</string>
+    <string name="password_changed">Password Changed!</string>
+    <string name="error_message">Password must contain uppercase char,number and symbols</string>
+
+    <!--Picker-->
+    <string name="member_login_title">Member Login</string>
+    <string name="picker_message1">Selected date must be between</string>
+    <string name="picker_and">and</string>
+    <string name="picker_departure_station">Departure station</string>
+    <string name="picker_arrival_station">Arrival Station</string>
+    <string name="picker_preferred">Select preferred language</string>
+    <string name="picker_enter_keyword">Enter keyword</string>
+    <string name="picker_select_gender">Select Gender</string>
+    <string name="picker_select_departure">Select Departure Station</string>
+    <string name="picker_select_arrival">Select Arrival Station</string>
+    <string name="select_country_title">Select country</string>
+
+    <!--Option-->
+    <string name="please_select_country">Please select country</string>
+    <string name="term_title">Terms of Use</string>
+    <string name="qr_title">My BIG QR Code</string>
+
+    <!--Edit-->
+    <string name="edit_utils">Please select country</string>
+    <string name="edit_success">Thank You! Update Successful</string>
+    <string name="error_not_save">Image not saved</string>
+
+    <!--Main-->
+    <string name="main_connection_body">Please connect to working Internet connection</string>
+    <string name="main_toast">New Message:</string>
+
+    <!--Registration-->
+    <string name="register_success_message">Thank You! Please check your email to complete your registration</string>
+    <string name="register_error">ERROR</string>
+    <string name="register_password_invalid">Password invalid.</string>
+    <string name="register_password_length">Must be at least 8 and maximum 16 characters</string>
+
+    <!--Splash Screen-->
+    <string name="updateTitle">App Update</string>
+    <string name="updateBody">New version available at PlayStore</string>
+
+    <!--Token-->
+    <string name="token_connection_error">Connection Error</string>
+    <string name="token_retry">Retry</string>
+
+    <!--Adapter-->
+    <string name="adapter_seat_left">%1$s seats left !</string>
+    <string name="adapter_salutation_required">Salutation is required</string>
+    <string name="adapter_nationality_required">Nationality is required</string>
+    <string name="adapter_family_name_required">Family name is required</string>
+    <string name="adapter_given_name_required">Given name is required</string>
+    <string name="adapter_dob_required">Date of birth is required</string>
+    <string name="adapter_travelling_required">Travelling with is required</string>
+    <string name="adapter_gender_required">Gender is required</string>
+    <string name="adapter_seat_left1">%1$s seat(s) left</string>
+    <string name="adapter_seat_left2">%1$s seat left</string>
+
+    <!--Error Message-->
+    <string name="error1">Contact Person Phone is required</string>
+    <string name="error2">Insufficient points to proceed</string>
+    <string name="error3">Your session has expired. Please login again.</string>
+    <string name="error4">Validation Error</string>
+    <string name="error5">Country Code is required.</string>
+
+    <!--action bar-->
+    <string name="action_pay">PAY</string>
+    <string name="action_new_flight">NEW FLIGHT</string>
+
+    <!--Password expired-->
+    <!--NOT USE--><string name="hint_enter_current_password">Enter current password</string>
+    <!--NOT USE--><string name="hint_enter_new_password">Enter new password</string>
+    <!--NOT USE--><string name="hint_enter_confirm_password">Enter Confirm Password</string>
+
+    <!--add profile image-->
+    <string name="change_photo">Change Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_photo">Choose From Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="cancel">CANCEL</string>
+
+
+    <string name="addon_star">Complimentary add-ons for your flight</string>
+    <string name="baggage_meal_not">Not available for this flight</string>
+    <string name="done">Done</string>
+    <string name="aab_big_prepaid">AirAsia BIG Prepaid</string>
+    <string name="depart">Depart</string>
+    <string name="returned">Return</string>
+    <string name="booking_number">Booking Number:</string>
+    <string name="point_redeem">Total Points Redeemed:</string>
+    <string name="total_paid">Total Paid:</string>
+    <string name="transaction_number">Transaction Number:</string>
+    <string name="book_no">Booking Number</string>
+    <string name="w_update">Update</string>
+
+    <!--Force update-->
+    <string name="fu_new_version">NEW VERSION AVAILABLE</string>
+    <string name="fu_desc">There is a newer version available for download! Please update the app by visiting the Google Play Store.</string>
+
+    <string name="select">Select</string>
+    <string name="your_language">Your Language</string>
+    <string name="baggage_kg">20kg baggage</string>
+    <string name="hot_seat">Free Hot Seats Selection</string>
+    <string name="comp_meal">1 complimentary meal</string>
+    <string name="fare_differ">2 times flight date/time changes up to 2 hours prior to departure. Subject to any fare differences</string>
+    <string name="lounge">Lounge access for international flights departing KLIA2</string>
+    <string name="kg_baggage">40kg baggage</string>
+    <string name="any_differ">Unlimited flight date/time changes up to 2 hours before departure. Subject to any fare differences.</string>
+    <string name="lounge2">Flatbed + Lounge access for international flights departing KLIA2</string>
+    <string name="insurance_desc">The following guest(s) are eligible for travel insurance</string>
+    <string name="shaker">Shake For Random Holiday</string>
+    <string name="no_promo">Oops! No promo routes nearby you, please choose other location</string>
+    <string name="confirm_sym">Confirm &gt;</string>
+    <string name="process_fee">Processing Fee :&#160;</string>
+    <string name="payment_desc">This fee is chargeable per guest for each way when payment is made online through credit card , debit card &amp; charge card only.</string>
+    <string name="payment_amount_due">Total amount due :&#160;</string>
+    <string name="payment_card_type">Card Type</string>
+    <string name="payment_card_number">Card Number</string>
+    <string name="payment_expired_date">Expired Date</string>
+    <string name="card_holder">Card Holder Name</string>
+    <string name="cvv">CVV / CVC Number</string>
+    <string name="issuing_bank">Credit / Debit Card Issuing Bank:</string>
+    <string name="card_issuer">Card Issuer:</string>
+    <!--NOT USE--><string name="test_issuer_card">Testing Card Issuer - (Hardcoded)</string>
+    <string name="country_issue">Card Issuer country:</string>
+    <!--NOT USE--><string name="test_country_issue">Testing Card Issuer Country - (Hardcoded)</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="bill_add1">Billing Address 1</string>
+    <string name="bill_add2">Billing Address 2</string>
+    <string name="town_city">Town / City</string>
+    <string name="process">Processing&#8230;</string>
+    <string name="qr">My BIG QR Code</string>
+    <string name="recent_search">Recent Search</string>
+    <string name="your_country">Your Country</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="title_mr">Mr</string>
+    <string name="title_ms">Ms</string>
+
+    <!-- BIG FUN TRIVIA GAME -->
+
+    <string name="bigfun_sound">Sound</string>
+    <string name="bigfun_music">Music</string>
+    <string name="bigfun_setting_title">Setting</string>
+    <string name="btn_play">Play</string>
+    <string name="pts_with_space">&#160;pts</string>
+    <string name="hr">h</string>
+    <string name="min">m</string>
+
+    <string name="notification_title">Notifications</string>
+    <string name="notification_delete">Notification deleted</string>
+    <string name="no_notification">You have no new notifications</string>
+    <string name="message">Message</string>
+    <string name="messages">Messages</string>
+
+
+</resources>

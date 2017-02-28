@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/guest1"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ssr_background_1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/txtCancelGuest1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/red"
+                android:textSize="16dp" />
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/textView426"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="Guest 1"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/txtDoneGuest1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="Done"
+                android:textColor="@color/red"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_login_bottom_border"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imgUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/tbd_dp2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="15dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="6dp"
+                    android:text="Mr."
+                    android:textColor="@color/dark_lvl2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="6dp"
+                    android:text="Danny"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="17dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="6dp"
+                    android:text="Wong"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/txtDob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="6dp"
+                    android:text="12 Sep 1990"
+                    android:textColor="@color/dark_lvl2" />
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Malaysia"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ssr_background_1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/textView428"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Travel Buddy"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right"
+                android:text="View More"
+                android:textColor="@color/red"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView4" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:padding="15dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/tbd_icon" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="15dp">
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jenny Wong"
+                            android:textSize="17dp" />
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sister"
+                            android:textColor="@color/dark_lvl2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/insurance_btn"
+                            android:text="+Add"
+                            android:textColor="@color/red"
+                            android:textSize="16dp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:padding="15dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/tbd_icon" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="15dp">
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:id="@+id/txtTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gloria Voon"
+                            android:textSize="17dp" />
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:id="@+id/txtNationality"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Friends"
+                            android:textColor="@color/dark_lvl2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/add_insurance_1"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/insurance_btn"
+                            android:text="+Add"
+                            android:textColor="@color/red"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/guest2"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ssr_background_1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1" >
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/txtCancelGuest2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/red"
+                android:textSize="16dp" />
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/textView430"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="Guest 2"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/txtDoneGuest2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="Done"
+                android:textColor="@color/red"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_login_bottom_border"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:gravity="top|center"
+                android:orientation="vertical"
+                android:paddingTop="15dp" >
+
+                <ImageView
+                    android:id="@+id/imageView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/profile_tbd" />
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I'm Flying"
+                    android:textSize="15dp"
+                    android:id="@+id/textView435" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="15dp" >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="6dp"
+                    android:text="Title."
+                    android:textColor="@color/dark_lvl2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="6dp"
+                    android:hint="Given Name"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="17dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="7dp"
+                    android:hint="Family Name"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:padding="6dp"
+                    android:hint="Date Of Birth"
+                    android:textColor="@color/dark_lvl2" />
+
+                <com.app.tbd.utils.FontStyle.PlayTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:hint="Nationality"
+                    android:textColor="@color/dark_lvl2"
+                    android:textSize="19dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ssr_background_1"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1" >
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:id="@+id/textView432"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text="Travel Buddy"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <com.app.tbd.utils.FontStyle.PlayTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right"
+                android:text="View More"
+                android:textColor="@color/red"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView3" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawable_login_bottom_border"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:padding="15dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/tbd_icon" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="15dp" >
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jenny Wong"
+                            android:textSize="17dp" />
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sister"
+                            android:textColor="@color/dark_lvl2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/insurance_btn"
+                            android:text="+Add"
+                            android:textColor="@color/red"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_login_bottom_border"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:padding="15dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/tbd_icon" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.45"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="15dp" >
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:id="@+id/textView433"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gloria Voon"
+                            android:textSize="17dp" />
+
+                        <com.app.tbd.utils.FontStyle.PlayTextView
+                            android:id="@+id/textView434"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Friends"
+                            android:textColor="@color/dark_lvl2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.25"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/insurance_btn"
+                            android:text="+Add"
+                            android:textColor="@color/red"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

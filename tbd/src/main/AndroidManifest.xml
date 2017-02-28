@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.tbd">
+
+    <uses-sdk
+        android:minSdkVersion="2"
+        android:targetSdkVersion="16"
+        tools:overrideLibrary="dmax.dialog" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:protectionLevel="normal" />
+
+    <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"
+        android:protectionLevel="normal" />
+    <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> -->
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:protectionLevel="normal"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:protectionLevel="normal" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:protectionLevel="normal" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:protectionLevel="normal" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        android:protectionLevel="normal" />
+
+    <permission
+        android:name="andoid.permission.READ_EXTERNAL_STORAGE"
+        android:protectionLevel="normal" />
+
+    <permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:protectionLevel="normal" />
+
+    <permission
+        android:name="android.permission.CAMERA"
+        android:protectionLevel="normal" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.app.tbd.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        android:name="com.app.firefly.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission
+        android:name="com.google.android.c2dm.permission.RECEIVE"
+        android:protectionLevel="signature" />
+
+
+    <application
+        android:name="com.app.tbd.application.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/latest_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:launchMode="singleTop"
+        android:theme="@style/MyCustomTheme"
+        android:vmSafeMode="true"
+        tools:replace="android:icon">
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Homepage.HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Login.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.RedirectActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.HolidayShaker.HolidayShakerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/landingTheme" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.QRCode.QRCodeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.SSR.BaggageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.TravellerInfo.TravellerInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Register.RegisterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.Option.ResetPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.ForgotPassword.ForgotPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.FlightListDepartActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.FlightListReturnActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.FlightItinenaryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.PassengerInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.Option.AboutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.Option.ChangeLanguageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.UnderConstruction.UnderConstructionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.SplashScreen.AfterBoardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.Option.TermsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.Option.TermOfUseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.Option.PrivacyPolicyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.GlobalPopup.PopupActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- ForceUpdate -->
+        <activity
+            android:name="com.app.tbd.ui.Activity.SplashScreen.ForceUpdateActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- SPLASH SCREsEN ;-->
+        <activity
+            android:name="com.app.tbd.ui.Activity.SplashScreen.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.TAB.TabActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BigFunTrivia.BigFunTriviaActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BigFunTrivia.BigFunSettingActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BigFunTrivia.BigFunPendingActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BigFunTrivia.BigFunQuestionActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BigFunTrivia.TestingPageActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BigFunTrivia.BigFunReadyActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.SplashScreen.OnBoarding.OnBoardingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/landingTheme">
+
+        </activity>
+
+        <activity
+            android:name=".ui.Activity.SplashScreen.FirstTimeUser.SC_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/landingTheme" />
+
+        <activity
+            android:name=".ui.Activity.Profile.BigPoint.BigPointBaseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.Activity.Profile.BigPoint.TransactionHistoryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.Activity.Profile.BigPoint.ExpiryDateActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Profile.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.Activity.Profile.Option.OptionsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.Activity.Profile.UserProfile.EditProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".ui.Activity.Profile.UserProfile.MyProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.PaymentMSOSActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.PaymentActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.PaymentFailedActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.PaymentWebviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.PaymentPendingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.FlightSummaryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.CheckoutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Add.AddOnActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Add.MealActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Add.BaggageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Add.InsuranceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Checkout.BigPointSliderActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.Terms.Terms"
+            android:label="@string/title_activity_terms"></activity>
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.Add.SeatTabActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.PushNotificationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.BookingFlight.TravellerInfo.TravellerInfoAddActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.DragDrop.DragDropActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.PasswordExpired.ChangePasswordActivity"
+            android:exported="false"
+            android:label="@string/title_activity_password_expired"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.tbd.ui.Activity.PushNotificationInbox.PushNotificationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+
+
+        <!--Add this-->
+        <!-- <activity android:name="com.facebook.FacebookActivity"
+             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:label="@string/app_name" />-->
+
+        <!--
+          Optionally, register AnalyticsReceiver and AnalyticsService to support background
+          dispatching on non-Google Play devices
+        -->
+
+
+        <!--<receiver
+            android:name="com.mixpanel.android.mpmetrics.InstallReferrerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>-->
+
+        <!--<receiver
+            android:name="com.app.tbd.ui.Activity.GeoFencing.GeofenceTransitionReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>-->
+
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+
+        <!--android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"-->
+        <!--android:name="com.google.android.gms.tagmanager.InstallReferrerReceiver"-->
+        <receiver
+            android:name=".TrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service android:name=".application.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".application.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.google.android.gms.tagmanager.InstallReferrerService" />
+        <service
+            android:name="com.google.android.gms.analytics.CampaignTrackingService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e484fdefc2bb0b41cffd0448b1a9f206323c0687" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_map_app_id" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <meta-data
+            android:name="com.bugsnag.android.API_KEY"
+            android:value="@string/bugsnag_app_id" />
+
+    </application>
+
+</manifest>
